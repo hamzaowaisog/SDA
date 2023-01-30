@@ -1,20 +1,11 @@
 public class smartWatch extends SmartGadget{
-    private int HeartRate;
-    private boolean multiTouchScreen;
+    private boolean HeartRate;
 
-    public boolean isMultiTouchScreen() {
-        return multiTouchScreen;
-    }
-
-    public void setMultiTouchScreen(boolean multiTouchScreen) {
-        this.multiTouchScreen = multiTouchScreen;
-    }
-
-    public int getHeartRate() {
+    public boolean isHeartRate() {
         return HeartRate;
     }
 
-    public void setHeartRate(int heartRate) {
+    public void setHeartRate(boolean heartRate) {
         HeartRate = heartRate;
     }
 }
