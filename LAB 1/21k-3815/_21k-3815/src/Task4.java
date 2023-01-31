@@ -13,7 +13,7 @@ public class Task4 {
         w1.setPrice(12000);
         w1.setHeartRate(true);
 
-        System.out.println("Smart phone");  
+        System.out.println("Smart phone");
         System.out.println("Name: "+p1.getName());
         System.out.println("Colour: "+p1.getColor());
         System.out.println("Price: "+p1.getPrice());
