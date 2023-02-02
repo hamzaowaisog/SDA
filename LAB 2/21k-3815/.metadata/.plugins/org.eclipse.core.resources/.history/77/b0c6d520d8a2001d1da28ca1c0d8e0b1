@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="__aoNIKLUEe2kVek5-QAuxg" name="Task1">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="__cQk0KLUEe2kVek5-QAuxg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_AdPgsKLVEe2kVek5-QAuxg" name="Online Food">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GyXPsKLVEe2kVek5-QAuxg" name="Log in">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_oIlNgaLVEe2kVek5-QAuxg" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KbAxYKLVEe2kVek5-QAuxg" name="Verify">
+      <extend xmi:type="uml:Extend" xmi:id="_oIlNgKLVEe2kVek5-QAuxg" extendedCase="_GyXPsKLVEe2kVek5-QAuxg" extensionLocation="_oIlNgaLVEe2kVek5-QAuxg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__Oh1YKLVEe2kVek5-QAuxg" name="Confirme order"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KgwXkKLWEe2kVek5-QAuxg" name="view Dish"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PlPlIKLWEe2kVek5-QAuxg" name="Place Order">
+      <include xmi:type="uml:Include" xmi:id="_YKx3kKLWEe2kVek5-QAuxg" addition="_GyXPsKLVEe2kVek5-QAuxg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SOb08KLWEe2kVek5-QAuxg" name="Pay Bill"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9QQ8cKLWEe2kVek5-QAuxg" name="pay by paypal">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Gsb78KLXEe2kVek5-QAuxg" general="_SOb08KLWEe2kVek5-QAuxg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-97_MKLWEe2kVek5-QAuxg" name="pay by Credit card">
+      <generalization xmi:type="uml:Generalization" xmi:id="_HmCdcKLXEe2kVek5-QAuxg" general="_SOb08KLWEe2kVek5-QAuxg"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_E1JVEKLVEe2kVek5-QAuxg" name="User"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_u4KD4KLVEe2kVek5-QAuxg" name="Customer ">
+    <generalization xmi:type="uml:Generalization" xmi:id="_177BkKLVEe2kVek5-QAuxg" general="_E1JVEKLVEe2kVek5-QAuxg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_xmpqcKLVEe2kVek5-QAuxg" name="Manager">
+    <generalization xmi:type="uml:Generalization" xmi:id="_65hkAKLVEe2kVek5-QAuxg" general="_E1JVEKLVEe2kVek5-QAuxg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_9_EYoKLVEe2kVek5-QAuxg" name="Manager"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GZzwUKLWEe2kVek5-QAuxg" memberEnd="_GZzwU6LWEe2kVek5-QAuxg _GZzwVKLWEe2kVek5-QAuxg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZzwUaLWEe2kVek5-QAuxg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GZzwUqLWEe2kVek5-QAuxg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GZzwU6LWEe2kVek5-QAuxg" name="confirme order" type="__Oh1YKLVEe2kVek5-QAuxg" association="_GZzwUKLWEe2kVek5-QAuxg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GZzwVKLWEe2kVek5-QAuxg" name="manager" type="_9_EYoKLVEe2kVek5-QAuxg" association="_GZzwUKLWEe2kVek5-QAuxg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LmFA4KLWEe2kVek5-QAuxg" memberEnd="_LmFA46LWEe2kVek5-QAuxg _LmFA5KLWEe2kVek5-QAuxg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LmFA4aLWEe2kVek5-QAuxg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LmFA4qLWEe2kVek5-QAuxg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LmFA46LWEe2kVek5-QAuxg" name="view dish" type="_KgwXkKLWEe2kVek5-QAuxg" association="_LmFA4KLWEe2kVek5-QAuxg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LmFA5KLWEe2kVek5-QAuxg" name="user" type="_E1JVEKLVEe2kVek5-QAuxg" association="_LmFA4KLWEe2kVek5-QAuxg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QulLwKLWEe2kVek5-QAuxg" memberEnd="_QulLw6LWEe2kVek5-QAuxg _QulLxKLWEe2kVek5-QAuxg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QulLwaLWEe2kVek5-QAuxg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QulLwqLWEe2kVek5-QAuxg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QulLw6LWEe2kVek5-QAuxg" name="place order" type="_PlPlIKLWEe2kVek5-QAuxg" association="_QulLwKLWEe2kVek5-QAuxg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QulLxKLWEe2kVek5-QAuxg" name="user" type="_E1JVEKLVEe2kVek5-QAuxg" association="_QulLwKLWEe2kVek5-QAuxg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Ttz9AKLWEe2kVek5-QAuxg" memberEnd="_Ttz9A6LWEe2kVek5-QAuxg _Ttz9BKLWEe2kVek5-QAuxg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ttz9AaLWEe2kVek5-QAuxg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ttz9AqLWEe2kVek5-QAuxg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ttz9A6LWEe2kVek5-QAuxg" name="user" type="_E1JVEKLVEe2kVek5-QAuxg" association="_Ttz9AKLWEe2kVek5-QAuxg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ttz9BKLWEe2kVek5-QAuxg" name="pay bill" type="_SOb08KLWEe2kVek5-QAuxg" association="_Ttz9AKLWEe2kVek5-QAuxg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xfdn4KLWEe2kVek5-QAuxg" memberEnd="_xfdn46LWEe2kVek5-QAuxg _xfdn5KLWEe2kVek5-QAuxg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xfdn4aLWEe2kVek5-QAuxg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xfdn4qLWEe2kVek5-QAuxg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xfdn46LWEe2kVek5-QAuxg" name="log in" type="_GyXPsKLVEe2kVek5-QAuxg" association="_xfdn4KLWEe2kVek5-QAuxg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xfdn5KLWEe2kVek5-QAuxg" type="_Ttz9AKLWEe2kVek5-QAuxg" association="_xfdn4KLWEe2kVek5-QAuxg"/>
+  </packagedElement>
+</uml:Model>

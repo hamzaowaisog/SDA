@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qo1KcKLaEe2R-_NVXnzAsA" name="Lab2">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_qu4vIKLaEe2R-_NVXnzAsA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_yUwUUKLaEe2R-_NVXnzAsA" name="Careem App">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_xGP9AKLeEe2R-_NVXnzAsA">
+      <body>Muhammad Hamza &#xD;
+21k-3815&#xD;
+Task 1&#xD;
+</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9KgV4KLaEe2R-_NVXnzAsA" name="Create Account">
+      <include xmi:type="uml:Include" xmi:id="_kCm9AKLdEe2R-_NVXnzAsA" addition="__1ZO0KLaEe2R-_NVXnzAsA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__1ZO0KLaEe2R-_NVXnzAsA" name="Confirmation"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UTlKQKLbEe2R-_NVXnzAsA" name="Fill Form"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_aRRQsKLbEe2R-_NVXnzAsA" name="Train">
+      <include xmi:type="uml:Include" xmi:id="_k5YM8KLdEe2R-_NVXnzAsA" addition="__1ZO0KLaEe2R-_NVXnzAsA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_dUaRkKLbEe2R-_NVXnzAsA" name="Train Online">
+      <generalization xmi:type="uml:Generalization" xmi:id="_LVQAgKLfEe2R-_NVXnzAsA" general="_aRRQsKLbEe2R-_NVXnzAsA"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_mIxqMKLbEe2R-_NVXnzAsA" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mvtuYKLbEe2R-_NVXnzAsA" name="Train Office">
+      <generalization xmi:type="uml:Generalization" xmi:id="_L63PAKLfEe2R-_NVXnzAsA" general="_aRRQsKLbEe2R-_NVXnzAsA"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_qnq3YaLbEe2R-_NVXnzAsA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_roNuYKLbEe2R-_NVXnzAsA" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qXAvwKLcEe2R-_NVXnzAsA" name="Log in"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9vfAUKLcEe2R-_NVXnzAsA" name="Earning"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ECl9IKLdEe2R-_NVXnzAsA" name="Pay by Cash">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Hg1loKLdEe2R-_NVXnzAsA" general="_9vfAUKLcEe2R-_NVXnzAsA"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_gfeYAKLeEe2R-_NVXnzAsA" general="_bcwsEKLeEe2R-_NVXnzAsA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_H-4MgKLdEe2R-_NVXnzAsA" name="Pay by Credit card">
+      <generalization xmi:type="uml:Generalization" xmi:id="_QWTKcKLdEe2R-_NVXnzAsA" general="_9vfAUKLcEe2R-_NVXnzAsA"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_fO6vEKLeEe2R-_NVXnzAsA" general="_bcwsEKLeEe2R-_NVXnzAsA"/>
+      <include xmi:type="uml:Include" xmi:id="_8WEg4KLdEe2R-_NVXnzAsA" addition="_fzAJAKLdEe2R-_NVXnzAsA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_O9LbYKLdEe2R-_NVXnzAsA" name="pay by wallet">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Q6dAYKLdEe2R-_NVXnzAsA" general="_9vfAUKLcEe2R-_NVXnzAsA"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_eDxKkKLeEe2R-_NVXnzAsA" general="_bcwsEKLeEe2R-_NVXnzAsA"/>
+      <include xmi:type="uml:Include" xmi:id="_8-40YKLdEe2R-_NVXnzAsA" addition="_fzAJAKLdEe2R-_NVXnzAsA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VtM9sKLdEe2R-_NVXnzAsA" name="Book Ride"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_fzAJAKLdEe2R-_NVXnzAsA" name="Careem Pays"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_QfMyUKLeEe2R-_NVXnzAsA" name="Schedule ride"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_bcwsEKLeEe2R-_NVXnzAsA" name="Pay Ride"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_jKqL4KLeEe2R-_NVXnzAsA" name="FeedBack"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_udM3IKLeEe2R-_NVXnzAsA" name="Update Captain Earning"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_0pzgIKLaEe2R-_NVXnzAsA" name="User"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Cq1K4KLbEe2R-_NVXnzAsA" memberEnd="_Cq3nIKLbEe2R-_NVXnzAsA _Cq3nIaLbEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Cq2ZAKLbEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Cq3AEKLbEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Cq3nIKLbEe2R-_NVXnzAsA" name="create account" type="_9KgV4KLaEe2R-_NVXnzAsA" association="_Cq1K4KLbEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Cq3nIaLbEe2R-_NVXnzAsA" name="user" type="_0pzgIKLaEe2R-_NVXnzAsA" association="_Cq1K4KLbEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Guf0oKLbEe2R-_NVXnzAsA" name="Passenger">
+    <generalization xmi:type="uml:Generalization" xmi:id="_O9SbAKLbEe2R-_NVXnzAsA" general="_0pzgIKLaEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_IJl5oKLbEe2R-_NVXnzAsA" name="Captain">
+    <generalization xmi:type="uml:Generalization" xmi:id="_K3JsEKLbEe2R-_NVXnzAsA" general="_0pzgIKLaEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WQ3WUKLbEe2R-_NVXnzAsA" memberEnd="_WQ39YqLbEe2R-_NVXnzAsA _WQ39Y6LbEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WQ39YKLbEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WQ39YaLbEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WQ39YqLbEe2R-_NVXnzAsA" name="fill form" type="_UTlKQKLbEe2R-_NVXnzAsA" association="_WQ3WUKLbEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WQ39Y6LbEe2R-_NVXnzAsA" name="captain" type="_IJl5oKLbEe2R-_NVXnzAsA" association="_WQ3WUKLbEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_coVOsKLbEe2R-_NVXnzAsA" memberEnd="_coVOs6LbEe2R-_NVXnzAsA _coV1wKLbEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_coVOsaLbEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_coVOsqLbEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_coVOs6LbEe2R-_NVXnzAsA" name="select training slot" type="_aRRQsKLbEe2R-_NVXnzAsA" association="_coVOsKLbEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_coV1wKLbEe2R-_NVXnzAsA" name="captain" type="_IJl5oKLbEe2R-_NVXnzAsA" association="_coVOsKLbEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r9tAwKLcEe2R-_NVXnzAsA" memberEnd="_r9tn0qLcEe2R-_NVXnzAsA _r9tn06LcEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r9tn0KLcEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r9tn0aLcEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r9tn0qLcEe2R-_NVXnzAsA" name="log in" type="_qXAvwKLcEe2R-_NVXnzAsA" association="_r9tAwKLcEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r9tn06LcEe2R-_NVXnzAsA" name="captain" type="_IJl5oKLbEe2R-_NVXnzAsA" association="_r9tAwKLcEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-8_8UKLcEe2R-_NVXnzAsA" memberEnd="_-9AjYqLcEe2R-_NVXnzAsA _-9AjY6LcEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-9AjYKLcEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-9AjYaLcEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-9AjYqLcEe2R-_NVXnzAsA" name="earning" type="_9vfAUKLcEe2R-_NVXnzAsA" association="_-8_8UKLcEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-9AjY6LcEe2R-_NVXnzAsA" name="captain" type="_IJl5oKLbEe2R-_NVXnzAsA" association="_-8_8UKLcEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XX3vwKLdEe2R-_NVXnzAsA" memberEnd="_XX4W0aLdEe2R-_NVXnzAsA _XX4W0qLdEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XX3vwaLdEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XX4W0KLdEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XX4W0aLdEe2R-_NVXnzAsA" name="book ride" type="_VtM9sKLdEe2R-_NVXnzAsA" association="_XX3vwKLdEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XX4W0qLdEe2R-_NVXnzAsA" name="passenger" type="_Guf0oKLbEe2R-_NVXnzAsA" association="_XX3vwKLdEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_T25G4KLeEe2R-_NVXnzAsA" memberEnd="_T25G46LeEe2R-_NVXnzAsA _T25t8KLeEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_T25G4aLeEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T25G4qLeEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_T25G46LeEe2R-_NVXnzAsA" name="schdule ride" type="_QfMyUKLeEe2R-_NVXnzAsA" association="_T25G4KLeEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_T25t8KLeEe2R-_NVXnzAsA" name="passenger" type="_Guf0oKLbEe2R-_NVXnzAsA" association="_T25G4KLeEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dQM_oKLeEe2R-_NVXnzAsA" memberEnd="_dQNmsKLeEe2R-_NVXnzAsA _dQNmsaLeEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dQM_oaLeEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dQM_oqLeEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dQNmsKLeEe2R-_NVXnzAsA" name="pay ride" type="_bcwsEKLeEe2R-_NVXnzAsA" association="_dQM_oKLeEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dQNmsaLeEe2R-_NVXnzAsA" name="passenger" type="_Guf0oKLbEe2R-_NVXnzAsA" association="_dQM_oKLeEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lN0WcKLeEe2R-_NVXnzAsA" memberEnd="_lN0Wc6LeEe2R-_NVXnzAsA _lN0WdKLeEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lN0WcaLeEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lN0WcqLeEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lN0Wc6LeEe2R-_NVXnzAsA" name="feedback" type="_jKqL4KLeEe2R-_NVXnzAsA" association="_lN0WcKLeEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lN0WdKLeEe2R-_NVXnzAsA" name="passenger" type="_Guf0oKLbEe2R-_NVXnzAsA" association="_lN0WcKLeEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_tOnkIKLeEe2R-_NVXnzAsA" name="Careem Portal"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wXbIIKLeEe2R-_NVXnzAsA" memberEnd="_wXbvMaLeEe2R-_NVXnzAsA _wXbvMqLeEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wXbIIaLeEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wXbvMKLeEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wXbvMaLeEe2R-_NVXnzAsA" name="update captain earning" type="_udM3IKLeEe2R-_NVXnzAsA" association="_wXbIIKLeEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wXbvMqLeEe2R-_NVXnzAsA" name="careem portal" type="_tOnkIKLeEe2R-_NVXnzAsA" association="_wXbIIKLeEe2R-_NVXnzAsA"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_11Mi8KLfEe2R-_NVXnzAsA" name="Task2">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_1101EKLfEe2R-_NVXnzAsA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_GEV1oKLhEe2R-_NVXnzAsA" name="University Website">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_RvVVwKLkEe2R-_NVXnzAsA">
+      <body>Muhammad Hamza&#xD;
+21k-3815&#xD;
+Task2&#xD;
+</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_JJ7GgKLhEe2R-_NVXnzAsA" name="Register"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KW0XcKLhEe2R-_NVXnzAsA" name="Log in">
+      <include xmi:type="uml:Include" xmi:id="_MUovAKLhEe2R-_NVXnzAsA" addition="_JJ7GgKLhEe2R-_NVXnzAsA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Y0EEIKLhEe2R-_NVXnzAsA" name="Select Scholarship">
+      <generalization xmi:type="uml:Generalization" xmi:id="_M85zcKLiEe2R-_NVXnzAsA" general="_KW0XcKLhEe2R-_NVXnzAsA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ucehkKLiEe2R-_NVXnzAsA" name="Upload Document"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ypQEAKLiEe2R-_NVXnzAsA" name="National ">
+      <generalization xmi:type="uml:Generalization" xmi:id="_2vsU8KLiEe2R-_NVXnzAsA" general="_Y0EEIKLhEe2R-_NVXnzAsA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_z0PQcKLiEe2R-_NVXnzAsA" name="International">
+      <generalization xmi:type="uml:Generalization" xmi:id="_13FR8KLiEe2R-_NVXnzAsA" general="_Y0EEIKLhEe2R-_NVXnzAsA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__Mp6MKLiEe2R-_NVXnzAsA" name="Verify Document"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FmyFAKLjEe2R-_NVXnzAsA" name="Review Process"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_fz8VcKLjEe2R-_NVXnzAsA" name="Shortlisted">
+      <generalization xmi:type="uml:Generalization" xmi:id="_d-OUgKLkEe2R-_NVXnzAsA" general="_XqLjkKLkEe2R-_NVXnzAsA"/>
+      <include xmi:type="uml:Include" xmi:id="_qy8kMKLkEe2R-_NVXnzAsA" addition="_sxcGoKLjEe2R-_NVXnzAsA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_kDmz0KLjEe2R-_NVXnzAsA" name="Rejected">
+      <generalization xmi:type="uml:Generalization" xmi:id="_ee3jcKLkEe2R-_NVXnzAsA" general="_XqLjkKLkEe2R-_NVXnzAsA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sxcGoKLjEe2R-_NVXnzAsA" name="Invite for interview"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_H6jB8KLkEe2R-_NVXnzAsA" name="Generates Report"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XqLjkKLkEe2R-_NVXnzAsA" name="Update Status">
+      <generalization xmi:type="uml:Generalization" xmi:id="_dd85AKLkEe2R-_NVXnzAsA" general="_FmyFAKLjEe2R-_NVXnzAsA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_nuCBsKLkEe2R-_NVXnzAsA" name="Interview"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_siKfEKLkEe2R-_NVXnzAsA" name="Physical">
+      <generalization xmi:type="uml:Generalization" xmi:id="_u6dMIKLkEe2R-_NVXnzAsA" general="_nuCBsKLkEe2R-_NVXnzAsA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_t75SIKLkEe2R-_NVXnzAsA" name="Virutal">
+      <generalization xmi:type="uml:Generalization" xmi:id="_xh1eEKLkEe2R-_NVXnzAsA" general="_nuCBsKLkEe2R-_NVXnzAsA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_RX8Q0KLhEe2R-_NVXnzAsA" name="Applicant"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_StKXUKLhEe2R-_NVXnzAsA" memberEnd="_StK-YqLhEe2R-_NVXnzAsA _StK-Y6LhEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_StK-YKLhEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_StK-YaLhEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_StK-YqLhEe2R-_NVXnzAsA" name="register" type="_JJ7GgKLhEe2R-_NVXnzAsA" association="_StKXUKLhEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_StK-Y6LhEe2R-_NVXnzAsA" name="applicant" type="_RX8Q0KLhEe2R-_NVXnzAsA" association="_StKXUKLhEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_TdExUKLhEe2R-_NVXnzAsA" memberEnd="_TdFYYqLhEe2R-_NVXnzAsA _TdFYY6LhEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TdFYYKLhEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TdFYYaLhEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TdFYYqLhEe2R-_NVXnzAsA" name="log in" type="_KW0XcKLhEe2R-_NVXnzAsA" association="_TdExUKLhEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TdFYY6LhEe2R-_NVXnzAsA" name="applicant" type="_RX8Q0KLhEe2R-_NVXnzAsA" association="_TdExUKLhEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aarcoKLhEe2R-_NVXnzAsA" memberEnd="_aasDsqLhEe2R-_NVXnzAsA _aasDs6LhEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aasDsKLhEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aasDsaLhEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aasDsqLhEe2R-_NVXnzAsA" name="select scholarship" type="_Y0EEIKLhEe2R-_NVXnzAsA" association="_aarcoKLhEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aasDs6LhEe2R-_NVXnzAsA" name="applicant" type="_RX8Q0KLhEe2R-_NVXnzAsA" association="_aarcoKLhEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wBuoIKLiEe2R-_NVXnzAsA" memberEnd="_wBvPMqLiEe2R-_NVXnzAsA _wBvPM6LiEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wBvPMKLiEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wBvPMaLiEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wBvPMqLiEe2R-_NVXnzAsA" name="upload document" type="_ucehkKLiEe2R-_NVXnzAsA" association="_wBuoIKLiEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wBvPM6LiEe2R-_NVXnzAsA" name="applicant" type="_RX8Q0KLhEe2R-_NVXnzAsA" association="_wBuoIKLiEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_9epgQKLiEe2R-_NVXnzAsA" name="Admin"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-o9XQKLiEe2R-_NVXnzAsA" memberEnd="_-o9-UqLiEe2R-_NVXnzAsA _-o-lYKLiEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-o9-UKLiEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-o9-UaLiEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-o9-UqLiEe2R-_NVXnzAsA" name="log in" type="_KW0XcKLhEe2R-_NVXnzAsA" association="_-o9XQKLiEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-o-lYKLiEe2R-_NVXnzAsA" name="admin" type="_9epgQKLiEe2R-_NVXnzAsA" association="_-o9XQKLiEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AfSmwKLjEe2R-_NVXnzAsA" memberEnd="_AfTN0qLjEe2R-_NVXnzAsA _AfTN06LjEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AfTN0KLjEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AfTN0aLjEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AfTN0qLjEe2R-_NVXnzAsA" name="verify document" type="__Mp6MKLiEe2R-_NVXnzAsA" association="_AfSmwKLjEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AfTN06LjEe2R-_NVXnzAsA" name="admin" type="_9epgQKLiEe2R-_NVXnzAsA" association="_AfSmwKLjEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GrEzkKLjEe2R-_NVXnzAsA" memberEnd="_GrFaoqLjEe2R-_NVXnzAsA _GrFao6LjEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GrFaoKLjEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GrFaoaLjEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GrFaoqLjEe2R-_NVXnzAsA" name="review process" type="_FmyFAKLjEe2R-_NVXnzAsA" association="_GrEzkKLjEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GrFao6LjEe2R-_NVXnzAsA" name="admin" type="_9epgQKLiEe2R-_NVXnzAsA" association="_GrEzkKLjEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ODiO4KLjEe2R-_NVXnzAsA" memberEnd="_ODi18qLjEe2R-_NVXnzAsA _ODi186LjEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ODi18KLjEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ODi18aLjEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ODi18qLjEe2R-_NVXnzAsA" name="review process" type="_FmyFAKLjEe2R-_NVXnzAsA" association="_ODiO4KLjEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ODi186LjEe2R-_NVXnzAsA" name="applicant" type="_RX8Q0KLhEe2R-_NVXnzAsA" association="_ODiO4KLjEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wPhXEKLjEe2R-_NVXnzAsA" memberEnd="_wPh-IqLjEe2R-_NVXnzAsA _wPh-I6LjEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wPh-IKLjEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wPh-IaLjEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wPh-IqLjEe2R-_NVXnzAsA" name="invite for interview" type="_sxcGoKLjEe2R-_NVXnzAsA" association="_wPhXEKLjEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wPh-I6LjEe2R-_NVXnzAsA" name="admin" type="_9epgQKLiEe2R-_NVXnzAsA" association="_wPhXEKLjEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KgQf8KLkEe2R-_NVXnzAsA" memberEnd="_KgRHAqLkEe2R-_NVXnzAsA _KgRHA6LkEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KgRHAKLkEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KgRHAaLkEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KgRHAqLkEe2R-_NVXnzAsA" name="generates report" type="_H6jB8KLkEe2R-_NVXnzAsA" association="_KgQf8KLkEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KgRHA6LkEe2R-_NVXnzAsA" name="admin" type="_9epgQKLiEe2R-_NVXnzAsA" association="_KgQf8KLkEe2R-_NVXnzAsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ot-bwKLkEe2R-_NVXnzAsA" memberEnd="_ot_C0qLkEe2R-_NVXnzAsA _ot_C06LkEe2R-_NVXnzAsA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ot_C0KLkEe2R-_NVXnzAsA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ot_C0aLkEe2R-_NVXnzAsA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ot_C0qLkEe2R-_NVXnzAsA" name="interview" type="_nuCBsKLkEe2R-_NVXnzAsA" association="_ot-bwKLkEe2R-_NVXnzAsA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ot_C06LkEe2R-_NVXnzAsA" name="applicant" type="_RX8Q0KLhEe2R-_NVXnzAsA" association="_ot-bwKLkEe2R-_NVXnzAsA"/>
+  </packagedElement>
+</uml:Model>
