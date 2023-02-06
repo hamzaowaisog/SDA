@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_GbEMIKYZEe2Xc65kDHUhgw" type="UseCase" name="Use Case Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_2ZYw4KYbEe2Xc65kDHUhgw" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2Zb0MKYbEe2Xc65kDHUhgw" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_2Zb0MaYbEe2Xc65kDHUhgw" type="Package_PackagedElementCompartment">
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Zb0MqYbEe2Xc65kDHUhgw"/>
+    </children>
+    <element xmi:type="uml:Package" href="Task3.uml#_2ZNKsKYbEe2Xc65kDHUhgw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2ZYw4aYbEe2Xc65kDHUhgw" x="260" y="80" width="861" height="721"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_5SS3sKYbEe2Xc65kDHUhgw" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_5SS3sqYbEe2Xc65kDHUhgw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5SS3s6YbEe2Xc65kDHUhgw" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5STewKYbEe2Xc65kDHUhgw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5STewaYbEe2Xc65kDHUhgw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5STewqYbEe2Xc65kDHUhgw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5STew6YbEe2Xc65kDHUhgw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5STexKYbEe2Xc65kDHUhgw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5STexaYbEe2Xc65kDHUhgw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="Task3.uml#_5SRCgKYbEe2Xc65kDHUhgw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5SS3saYbEe2Xc65kDHUhgw" x="60" y="160" width="141" height="201"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_GbEMIaYZEe2Xc65kDHUhgw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_GbEMIqYZEe2Xc65kDHUhgw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_GbEMI6YZEe2Xc65kDHUhgw" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+    <owner xmi:type="uml:Model" href="Task3.uml#_GZuvYKYZEe2Xc65kDHUhgw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Task3.uml#_GZuvYKYZEe2Xc65kDHUhgw"/>
+</notation:Diagram>
