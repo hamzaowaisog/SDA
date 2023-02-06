@@ -1,9 +1,10 @@
-#Mon Feb 06 18:58:12 PKT 2023
+#Mon Feb 06 18:58:13 PKT 2023
 print.useInches=true
 rulergrid.rulerunit=2
 print.margin.left=0.5
+viewport.x=35
 rulergrid.gridlinestyle=6
-viewport.y=15
+viewport.y=-24
 zoom=1.0
 print.usePortrait=true
 print.page.height=11.0

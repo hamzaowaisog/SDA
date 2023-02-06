@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_5ux7MKYiEe2rFrqT_DXSZA" name="Task4">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_5ux7MKYiEe2rFrqT_DXSZA" name="Task4">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_5v7KsKYiEe2rFrqT_DXSZA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_lINDUKYjEe2rFrqT_DXSZA" name="Restraunt Ordering Process">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_K6QBUKYmEe2rFrqT_DXSZA">
+      <body>Muhammad Hamza&#xD;
+21k-3815&#xD;
+Task 4</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XyJ9UKYlEe2rFrqT_DXSZA" name="View Menu"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_b09EYKYlEe2rFrqT_DXSZA" name="Place order"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_m8wfQKYlEe2rFrqT_DXSZA" name="kids Menu">
+      <generalization xmi:type="uml:Generalization" xmi:id="_odBYIKYlEe2rFrqT_DXSZA" general="_XyJ9UKYlEe2rFrqT_DXSZA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_pIsLUKYlEe2rFrqT_DXSZA" name="Adult menu">
+      <generalization xmi:type="uml:Generalization" xmi:id="_qRltEKYlEe2rFrqT_DXSZA" general="_XyJ9UKYlEe2rFrqT_DXSZA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_uyK8UKYlEe2rFrqT_DXSZA" name="Specify changes"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yaP2QKYlEe2rFrqT_DXSZA" name="list restriction"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7praQKYlEe2rFrqT_DXSZA" name="view Order"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FSSTQKYmEe2rFrqT_DXSZA" name="Submit order"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Ik8W0KYmEe2rFrqT_DXSZA" name="Pay Bill"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_WX17cKYlEe2rFrqT_DXSZA" name="Customer"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bBtCgKYlEe2rFrqT_DXSZA" memberEnd="_bBuQoaYlEe2rFrqT_DXSZA _bBuQoqYlEe2rFrqT_DXSZA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bBtpkKYlEe2rFrqT_DXSZA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bBuQoKYlEe2rFrqT_DXSZA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bBuQoaYlEe2rFrqT_DXSZA" name="customer" type="_WX17cKYlEe2rFrqT_DXSZA" association="_bBtCgKYlEe2rFrqT_DXSZA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bBuQoqYlEe2rFrqT_DXSZA" name="view menu" type="_XyJ9UKYlEe2rFrqT_DXSZA" association="_bBtCgKYlEe2rFrqT_DXSZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dr-3cKYlEe2rFrqT_DXSZA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wG23UKYlEe2rFrqT_DXSZA" memberEnd="_wG3eYqYlEe2rFrqT_DXSZA _wG3eY6YlEe2rFrqT_DXSZA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wG3eYKYlEe2rFrqT_DXSZA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wG3eYaYlEe2rFrqT_DXSZA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wG3eYqYlEe2rFrqT_DXSZA" name="customer" type="_WX17cKYlEe2rFrqT_DXSZA" association="_wG23UKYlEe2rFrqT_DXSZA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wG3eY6YlEe2rFrqT_DXSZA" name="specify changes" type="_uyK8UKYlEe2rFrqT_DXSZA" association="_wG23UKYlEe2rFrqT_DXSZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_z1ByMKYlEe2rFrqT_DXSZA" memberEnd="_z1CZQqYlEe2rFrqT_DXSZA _z1DAUKYlEe2rFrqT_DXSZA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z1CZQKYlEe2rFrqT_DXSZA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z1CZQaYlEe2rFrqT_DXSZA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_z1CZQqYlEe2rFrqT_DXSZA" name="customer" type="_WX17cKYlEe2rFrqT_DXSZA" association="_z1ByMKYlEe2rFrqT_DXSZA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_z1DAUKYlEe2rFrqT_DXSZA" name="list restriction" type="_yaP2QKYlEe2rFrqT_DXSZA" association="_z1ByMKYlEe2rFrqT_DXSZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_3nf-QKYlEe2rFrqT_DXSZA" name="kitchen"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9DV74KYlEe2rFrqT_DXSZA" memberEnd="_9DWi8qYlEe2rFrqT_DXSZA _9DXKAKYlEe2rFrqT_DXSZA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9DWi8KYlEe2rFrqT_DXSZA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9DWi8aYlEe2rFrqT_DXSZA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9DWi8qYlEe2rFrqT_DXSZA" name="view order" type="_7praQKYlEe2rFrqT_DXSZA" association="_9DV74KYlEe2rFrqT_DXSZA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9DXKAKYlEe2rFrqT_DXSZA" name="kitchen" type="_3nf-QKYlEe2rFrqT_DXSZA" association="_9DV74KYlEe2rFrqT_DXSZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_99YiQKYlEe2rFrqT_DXSZA" memberEnd="_99YiQ6YlEe2rFrqT_DXSZA _99YiRKYlEe2rFrqT_DXSZA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_99YiQaYlEe2rFrqT_DXSZA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_99YiQqYlEe2rFrqT_DXSZA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_99YiQ6YlEe2rFrqT_DXSZA" name="customer" type="_WX17cKYlEe2rFrqT_DXSZA" association="_99YiQKYlEe2rFrqT_DXSZA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_99YiRKYlEe2rFrqT_DXSZA" name="view order" type="_7praQKYlEe2rFrqT_DXSZA" association="_99YiQKYlEe2rFrqT_DXSZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Gf0dYKYmEe2rFrqT_DXSZA" memberEnd="_Gf1EcqYmEe2rFrqT_DXSZA _Gf1rgKYmEe2rFrqT_DXSZA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Gf1EcKYmEe2rFrqT_DXSZA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Gf1EcaYmEe2rFrqT_DXSZA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Gf1EcqYmEe2rFrqT_DXSZA" name="customer" type="_WX17cKYlEe2rFrqT_DXSZA" association="_Gf0dYKYmEe2rFrqT_DXSZA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Gf1rgKYmEe2rFrqT_DXSZA" name="submit order" type="_FSSTQKYmEe2rFrqT_DXSZA" association="_Gf0dYKYmEe2rFrqT_DXSZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KEQ0gKYmEe2rFrqT_DXSZA" memberEnd="_KERbkqYmEe2rFrqT_DXSZA _KERbk6YmEe2rFrqT_DXSZA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KERbkKYmEe2rFrqT_DXSZA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KERbkaYmEe2rFrqT_DXSZA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KERbkqYmEe2rFrqT_DXSZA" name="customer" type="_WX17cKYlEe2rFrqT_DXSZA" association="_KEQ0gKYmEe2rFrqT_DXSZA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KERbk6YmEe2rFrqT_DXSZA" name="pay bill" type="_Ik8W0KYmEe2rFrqT_DXSZA" association="_KEQ0gKYmEe2rFrqT_DXSZA"/>
+  </packagedElement>
 </uml:Model>
