@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_lfx-AKhhEe2YVsKk4SUBlg" name="Task2">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_hKs3UKhlEe28brCFvX672A">
+    <body>Muhammad Hamza&#xD;
+21k-3815&#xD;
+Task 2&#xD;
+</body>
+  </ownedComment>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_lghk4KhhEe2YVsKk4SUBlg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="__oZssKhhEe2YVsKk4SUBlg" name="Employee">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_d3OUYKhlEe28brCFvX672A" name="Name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_faznAKhlEe28brCFvX672A" value="20"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_faznAahlEe28brCFvX672A" value="20"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_FSycoKhiEe2YVsKk4SUBlg" name="Freelancers">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_oMxTQKhiEe2YVsKk4SUBlg" name="Catalog" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qegFUKhiEe2YVsKk4SUBlg" value="20"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qepPQKhiEe2YVsKk4SUBlg" value="20"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vjkhsKhiEe2YVsKk4SUBlg" name="Contact">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w51xEKhiEe2YVsKk4SUBlg" value="11"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w5_iEKhiEe2YVsKk4SUBlg" value="11"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qTAKg6hjEe2YVsKk4SUBlg" name="timesheet" type="_cTUZAKhiEe2YVsKk4SUBlg" association="_qTAKgKhjEe2YVsKk4SUBlg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MvuA4KhlEe28brCFvX672A" name="Name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Oe6GkKhlEe28brCFvX672A" value="20"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OfD3kKhlEe28brCFvX672A" value="20"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cTUZAKhiEe2YVsKk4SUBlg" name="Timesheet">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mamVkKhjEe2YVsKk4SUBlg" name="Contract_info">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o9PRcKhjEe2YVsKk4SUBlg" value="20"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o9ZCcKhjEe2YVsKk4SUBlg" value="20"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aqk5kKhiEe2YVsKk4SUBlg" name="Customers">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HWsGsKhlEe28brCFvX672A" name="Name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KQUmQKhlEe28brCFvX672A" value="20"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KQxSMKhlEe28brCFvX672A" value="20"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_R6e1kKhlEe28brCFvX672A" name="Description">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tl0WAKhlEe28brCFvX672A" value="20"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tl-HAKhlEe28brCFvX672A" value="20"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_aj_CAKhlEe28brCFvX672A" name="Property3">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dAPCAKhlEe28brCFvX672A" value="20"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dAYzAKhlEe28brCFvX672A" value="20"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qTAKgKhjEe2YVsKk4SUBlg" name="freelancers has" visibility="package" memberEnd="_qTAKg6hjEe2YVsKk4SUBlg _qTJUcqhjEe2YVsKk4SUBlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qTAKgahjEe2YVsKk4SUBlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qTAKgqhjEe2YVsKk4SUBlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qTJUcqhjEe2YVsKk4SUBlg" name="freelancers" type="_FSycoKhiEe2YVsKk4SUBlg" association="_qTAKgKhjEe2YVsKk4SUBlg"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WJDu16hlEe28brCFvX672A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WJXQ0KhlEe28brCFvX672A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
