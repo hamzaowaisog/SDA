@@ -161,6 +161,13 @@ Task 04</body>
     <ownedEnd xmi:type="uml:Property" xmi:id="_M8EVoKroEe2feqaSkyEoRA" name="visit" type="_5aBZsKrkEe2feqaSkyEoRA" association="_M8CgcKroEe2feqaSkyEoRA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_M8FjwKroEe2feqaSkyEoRA" name="doctors" type="_126j8KpjEe2z-dopMSB7WQ" association="_M8CgcKroEe2feqaSkyEoRA"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZHVYoKroEe2feqaSkyEoRA" name="Can access of" memberEnd="_ZHaRIKroEe2feqaSkyEoRA _ZHa4MKroEe2feqaSkyEoRA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZHZDAKroEe2feqaSkyEoRA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZHZqEKroEe2feqaSkyEoRA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZHaRIKroEe2feqaSkyEoRA" name="visit" type="_5aBZsKrkEe2feqaSkyEoRA" association="_ZHVYoKroEe2feqaSkyEoRA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZHa4MKroEe2feqaSkyEoRA" name="nurses" type="_3OMf8KpjEe2z-dopMSB7WQ" association="_ZHVYoKroEe2feqaSkyEoRA"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__K0_UKpjEe2z-dopMSB7WQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__K1mYKpjEe2z-dopMSB7WQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
