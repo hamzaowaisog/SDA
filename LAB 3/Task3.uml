@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_STSVYKpNEe2pXsS_eeruTA" name="Task3">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_7lKAgKpgEe2z-dopMSB7WQ">
+    <body>Muhammad Hamza&#xD;
+21k-3815&#xD;
+Task 3&#xD;
+</body>
+  </ownedComment>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_SYtn8KpNEe2pXsS_eeruTA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ZbEIAKpbEe2z-dopMSB7WQ" name="Employee">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_z0w_oKpbEe2z-dopMSB7WQ" name="ID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cNsVwKpdEe2z-dopMSB7WQ" value="10"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cQNeQKpdEe2z-dopMSB7WQ" value="10"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mQug8KpdEe2z-dopMSB7WQ" name="Designation">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sJOlYKpdEe2z-dopMSB7WQ" value="20"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sK9DsKpdEe2z-dopMSB7WQ" value="20"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_wM0WoKpdEe2z-dopMSB7WQ" name="Room">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CNj_QKpeEe2z-dopMSB7WQ" name="ID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DSF-YKpeEe2z-dopMSB7WQ" value="10"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DTFc4KpeEe2z-dopMSB7WQ" value="10"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_E7YQYKpeEe2z-dopMSB7WQ" name="No_Seats">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xU6AEKpdEe2z-dopMSB7WQ" name="Offices">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EJkjgKpfEe2z-dopMSB7WQ" name="ID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GYWIMKpfEe2z-dopMSB7WQ" value="10"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GZ-f4KpfEe2z-dopMSB7WQ" value="10"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0Fl_AKpdEe2z-dopMSB7WQ" name="Departments">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4C5iEKpdEe2z-dopMSB7WQ" name="Name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5qUy4KpdEe2z-dopMSB7WQ" value="20"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5rP_8KpdEe2z-dopMSB7WQ" value="20"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OpetYKpeEe2z-dopMSB7WQ" memberEnd="_OpnQQKpeEe2z-dopMSB7WQ _OppFcKpeEe2z-dopMSB7WQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Opk0AKpeEe2z-dopMSB7WQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OplbEKpeEe2z-dopMSB7WQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OpnQQKpeEe2z-dopMSB7WQ" name="offices" type="_xU6AEKpdEe2z-dopMSB7WQ" association="_OpetYKpeEe2z-dopMSB7WQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RDWHwKpeEe2z-dopMSB7WQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OppFcKpeEe2z-dopMSB7WQ" name="departments" type="_0Fl_AKpdEe2z-dopMSB7WQ" association="_OpetYKpeEe2z-dopMSB7WQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rQPScKpeEe2z-dopMSB7WQ" name="Works " memberEnd="_rQRusapeEe2z-dopMSB7WQ _rQhmUKpeEe2z-dopMSB7WQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rQRHoKpeEe2z-dopMSB7WQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rQRusKpeEe2z-dopMSB7WQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rQRusapeEe2z-dopMSB7WQ" name="offices" type="_xU6AEKpdEe2z-dopMSB7WQ" association="_rQPScKpeEe2z-dopMSB7WQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rQhmUKpeEe2z-dopMSB7WQ" name="employee" type="_ZbEIAKpbEe2z-dopMSB7WQ" association="_rQPScKpeEe2z-dopMSB7WQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wCYy0KpeEe2z-dopMSB7WQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Jc9IsKpfEe2z-dopMSB7WQ" name="Can have" memberEnd="_Jc-W0qpfEe2z-dopMSB7WQ _JdD2YKpfEe2z-dopMSB7WQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Jc-W0KpfEe2z-dopMSB7WQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Jc-W0apfEe2z-dopMSB7WQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Jc-W0qpfEe2z-dopMSB7WQ" name="room" type="_wM0WoKpdEe2z-dopMSB7WQ" association="_Jc9IsKpfEe2z-dopMSB7WQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_K9CbYKpfEe2z-dopMSB7WQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JdD2YKpfEe2z-dopMSB7WQ" name="offices" type="_xU6AEKpdEe2z-dopMSB7WQ" association="_Jc9IsKpfEe2z-dopMSB7WQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OUF2wKpfEe2z-dopMSB7WQ" name="Can Have" memberEnd="_OUHr8KpfEe2z-dopMSB7WQ _OUNykKpfEe2z-dopMSB7WQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OUHE4KpfEe2z-dopMSB7WQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OUHE4apfEe2z-dopMSB7WQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OUNykKpfEe2z-dopMSB7WQ" name="departments" type="_0Fl_AKpdEe2z-dopMSB7WQ" association="_OUF2wKpfEe2z-dopMSB7WQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OUHr8KpfEe2z-dopMSB7WQ" name="room" type="_wM0WoKpdEe2z-dopMSB7WQ" association="_OUF2wKpfEe2z-dopMSB7WQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SLT_8KpfEe2z-dopMSB7WQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Wc04cKpfEe2z-dopMSB7WQ" name="Can Have" memberEnd="_Wc3UsapfEe2z-dopMSB7WQ _Wc5J4KpfEe2z-dopMSB7WQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Wc2toKpfEe2z-dopMSB7WQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wc3UsKpfEe2z-dopMSB7WQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Wc5J4KpfEe2z-dopMSB7WQ" name="room" type="_wM0WoKpdEe2z-dopMSB7WQ" association="_Wc04cKpfEe2z-dopMSB7WQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Wc3UsapfEe2z-dopMSB7WQ" name="employee" type="_ZbEIAKpbEe2z-dopMSB7WQ" association="_Wc04cKpfEe2z-dopMSB7WQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZZF1QKpfEe2z-dopMSB7WQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZZhTEKpfEe2z-dopMSB7WQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_m1pEgKpgEe2z-dopMSB7WQ" name="Developer">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_c-ReIKpdEe2z-dopMSB7WQ" name="Rank">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ism58KpdEe2z-dopMSB7WQ" value="20"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iuZCoKpdEe2z-dopMSB7WQ" value="20"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0TMOwKpgEe2z-dopMSB7WQ" memberEnd="_0TOD8qpgEe2z-dopMSB7WQ _0TPSEKpgEe2z-dopMSB7WQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0TOD8KpgEe2z-dopMSB7WQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0TOD8apgEe2z-dopMSB7WQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0TOD8qpgEe2z-dopMSB7WQ" name="developer" type="_m1pEgKpgEe2z-dopMSB7WQ" association="_0TMOwKpgEe2z-dopMSB7WQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Yos9UKpjEe2z-dopMSB7WQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0TPSEKpgEe2z-dopMSB7WQ" name="employee" type="_ZbEIAKpbEe2z-dopMSB7WQ" association="_0TMOwKpgEe2z-dopMSB7WQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_10OjsKpgEe2z-dopMSB7WQ" name="Can be head of" memberEnd="_10Q_8KpgEe2z-dopMSB7WQ _10RnAKpgEe2z-dopMSB7WQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_10QY4KpgEe2z-dopMSB7WQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_10QY4apgEe2z-dopMSB7WQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_10Q_8KpgEe2z-dopMSB7WQ" name="departments" type="_0Fl_AKpdEe2z-dopMSB7WQ" association="_10OjsKpgEe2z-dopMSB7WQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_10RnAKpgEe2z-dopMSB7WQ" name="developer" type="_m1pEgKpgEe2z-dopMSB7WQ" association="_10OjsKpgEe2z-dopMSB7WQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_S9fuAKpjEe2z-dopMSB7WQ" name="Team Member"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VO7lIKpjEe2z-dopMSB7WQ" name="Can be " memberEnd="_VO8MMqpjEe2z-dopMSB7WQ _VO_PgKpjEe2z-dopMSB7WQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VO8MMKpjEe2z-dopMSB7WQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VO8MMapjEe2z-dopMSB7WQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VO8MMqpjEe2z-dopMSB7WQ" name="employee" type="_ZbEIAKpbEe2z-dopMSB7WQ" association="_VO7lIKpjEe2z-dopMSB7WQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VO_PgKpjEe2z-dopMSB7WQ" name="team member" type="_S9fuAKpjEe2z-dopMSB7WQ" association="_VO7lIKpjEe2z-dopMSB7WQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bZCW8KpjEe2z-dopMSB7WQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_p7LEUKpbEe2z-dopMSB7WQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p7NgkKpbEe2z-dopMSB7WQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
