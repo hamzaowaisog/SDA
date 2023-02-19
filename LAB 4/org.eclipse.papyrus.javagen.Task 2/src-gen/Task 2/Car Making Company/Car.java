@@ -38,7 +38,7 @@ public class Car {
 				/**
 				 * 
 				 */
-				public undef Property12;
+				public int License_no;
 	/**
 	 * 
 	 * @return 

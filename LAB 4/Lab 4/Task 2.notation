@@ -29,6 +29,10 @@
             <element xmi:type="uml:Property" href="Task%202.uml#_T3rOUK_1Ee2VwP1bbmI-Sw"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_T387Ia_1Ee2VwP1bbmI-Sw"/>
           </children>
+          <children xmi:type="notation:Shape" xmi:id="_MDmo4LBUEe2UCa5bK58LkQ" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Task%202.uml#_MBS7wLBUEe2UCa5bK58LkQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_MDmo4bBUEe2UCa5bK58LkQ"/>
+          </children>
           <styles xmi:type="notation:TitleStyle" xmi:id="_k9rmoa_tEe2VwP1bbmI-Sw"/>
           <styles xmi:type="notation:SortingStyle" xmi:id="_k9rmoq_tEe2VwP1bbmI-Sw"/>
           <styles xmi:type="notation:FilteringStyle" xmi:id="_k9rmo6_tEe2VwP1bbmI-Sw"/>
@@ -122,6 +126,11 @@
         </children>
         <element xmi:type="uml:Class" href="Task%202.uml#_nH9F0K_tEe2VwP1bbmI-Sw"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nIEaka_tEe2VwP1bbmI-Sw" x="834" y="32" width="241" height="241"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ceGscLBUEe2UCa5bK58LkQ" type="Comment_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ceHTgLBUEe2UCa5bK58LkQ" type="Comment_BodyLabel_CN"/>
+        <element xmi:type="uml:Comment" href="Task%202.uml#_cdxVQLBUEe2UCa5bK58LkQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ceGscbBUEe2UCa5bK58LkQ" x="294" y="312" width="441" height="181"/>
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_hVsMQq_tEe2VwP1bbmI-Sw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hVsMQ6_tEe2VwP1bbmI-Sw"/>
