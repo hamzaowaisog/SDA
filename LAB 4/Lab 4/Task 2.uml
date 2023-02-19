@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:Codegen="http://www.eclipse.org/papyrus/Codegen/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_cC-VcK_tEe2VwP1bbmI-Sw" name="Task 2">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_cF1cMK_tEe2VwP1bbmI-Sw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hVdiwK_tEe2VwP1bbmI-Sw" name="Car Making Company">
+      <packagedElement xmi:type="uml:Class" xmi:id="_k9jq0K_tEe2VwP1bbmI-Sw" name="Car">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_29Xp4a_uEe2VwP1bbmI-Sw" name="engine" type="_nH9F0K_tEe2VwP1bbmI-Sw" aggregation="composite" association="_29V0sK_uEe2VwP1bbmI-Sw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_29atMK_uEe2VwP1bbmI-Sw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_29flsK_uEe2VwP1bbmI-Sw" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_-TNnUK_0Ee2VwP1bbmI-Sw" name="Name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Ab7nUK_1Ee2VwP1bbmI-Sw" name="Manufacturing_Date">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_GTDywK_1Ee2VwP1bbmI-Sw" name="Color">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_LoVOUK_1Ee2VwP1bbmI-Sw" name="Company_name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_T3rOUK_1Ee2VwP1bbmI-Sw" name="Seats_no">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_MpA28K_vEe2VwP1bbmI-Sw" name="Has_PowerWIndows">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_R700YK_vEe2VwP1bbmI-Sw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_MaQz0K_wEe2VwP1bbmI-Sw" name="Has_Power_Steering">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_MaQz0a_wEe2VwP1bbmI-Sw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_6wFUQK_zEe2VwP1bbmI-Sw" name="No_seatters">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_-RkeAK_zEe2VwP1bbmI-Sw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_EEv9kK_0Ee2VwP1bbmI-Sw" name="Engine_type">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Lm45UK_0Ee2VwP1bbmI-Sw" type="_nH9F0K_tEe2VwP1bbmI-Sw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_h8QY0K_0Ee2VwP1bbmI-Sw" name="Has_Parachute" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_lkGCMK_0Ee2VwP1bbmI-Sw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_nH9F0K_tEe2VwP1bbmI-Sw" name="Engine">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_UJiP0K_0Ee2VwP1bbmI-Sw" name="Horse_Power">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ZLNZ8K_0Ee2VwP1bbmI-Sw" name="Sensors_name" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_duXcEK_0Ee2VwP1bbmI-Sw" value="10"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dvhSoK_0Ee2VwP1bbmI-Sw" value="10"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_3aTOwK_0Ee2VwP1bbmI-Sw" name="Engine_number">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_6CYEQK_0Ee2VwP1bbmI-Sw" name="Manufacturing_date">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_riQpwK_0Ee2VwP1bbmI-Sw" name="IS_Multipurpose">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_uijK8K_0Ee2VwP1bbmI-Sw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_vaYK0K_0Ee2VwP1bbmI-Sw" name="No_Horsepower">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_zUwVsK_0Ee2VwP1bbmI-Sw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_caoG0K_1Ee2VwP1bbmI-Sw" name="Is_Sensors" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ho3GQK_1Ee2VwP1bbmI-Sw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_29V0sK_uEe2VwP1bbmI-Sw" memberEnd="_29Xp4a_uEe2VwP1bbmI-Sw _29oIkK_uEe2VwP1bbmI-Sw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_29XC0K_uEe2VwP1bbmI-Sw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_29Xp4K_uEe2VwP1bbmI-Sw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_29oIkK_uEe2VwP1bbmI-Sw" name="car" type="_k9jq0K_tEe2VwP1bbmI-Sw" association="_29V0sK_uEe2VwP1bbmI-Sw"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_O8E3AK_1Ee2VwP1bbmI-Sw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O8JIcK_1Ee2VwP1bbmI-Sw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/Codegen/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Codegen_PROFILES/Codegen.profile.uml#_fPDsIBa-EearhdjjJ6cVzQ"/>
+    </profileApplication>
+  </uml:Model>
+  <Codegen:GeneratorHint xmi:id="_O8P2IK_1Ee2VwP1bbmI-Sw" base_Element="_cC-VcK_tEe2VwP1bbmI-Sw" generatorID="Standard Java">
+    <language xmi:type="Codegen:Language" href="pathmap://Codegen_PROFILES/languages.uml#_2Zt6YCjREeayco6FJ_OtTQ"/>
+  </Codegen:GeneratorHint>
+</xmi:XMI>

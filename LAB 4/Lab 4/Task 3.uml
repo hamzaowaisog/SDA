@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:Codegen="http://www.eclipse.org/papyrus/Codegen/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_qkKNUK_1Ee2VwP1bbmI-Sw" name="Task 3">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_qlC-IK_1Ee2VwP1bbmI-Sw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_q2bMkK_2Ee2VwP1bbmI-Sw" name="DIYA State Agent">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_38EwAK_9Ee2Bs5I-Z5QCqw">
+        <body>Muhammad Hamza&#xD;
+21k-3815&#xD;
+Task 3&#xD;
+</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Class" xmi:id="_UZFnYK_3Ee2VwP1bbmI-Sw" name="House">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_mEJT4K_3Ee2VwP1bbmI-Sw" name="House_no">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_F1wEUK_4Ee2VwP1bbmI-Sw" name="Location">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_7dK1AK_5Ee2VwP1bbmI-Sw" name="Size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="__jqJQK_5Ee2VwP1bbmI-Sw" name="No_of_Rooms">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_EqECYK_6Ee2VwP1bbmI-Sw" name="house owner" type="_tVdv8K_4Ee2VwP1bbmI-Sw" aggregation="composite" association="_EqCNMK_6Ee2VwP1bbmI-Sw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WI70YK_3Ee2VwP1bbmI-Sw" name="One_Portion">
+        <generalization xmi:type="uml:Generalization" xmi:id="_VZZYYK_4Ee2VwP1bbmI-Sw" general="_UZFnYK_3Ee2VwP1bbmI-Sw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cTmxcK_4Ee2VwP1bbmI-Sw" name="Monthly_Charge">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_hSgUYK_4Ee2VwP1bbmI-Sw" name="Has_Open_Kitchen">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_lZKAsK_4Ee2VwP1bbmI-Sw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_qYTecK_8Ee2Bs5I-Z5QCqw" name="No_rooms" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_zHyXEK_8Ee2Bs5I-Z5QCqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZU8dYK_3Ee2VwP1bbmI-Sw" name="Two_Portions">
+        <generalization xmi:type="uml:Generalization" xmi:id="_WBq5UK_4Ee2VwP1bbmI-Sw" general="_UZFnYK_3Ee2VwP1bbmI-Sw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_gFJJYK_4Ee2VwP1bbmI-Sw" name="Monthly_Charge">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_y8xPUK_7Ee2VwP1bbmI-Sw" name="Has_Open_Kitchen">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_y8xPUa_7Ee2VwP1bbmI-Sw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_1DhD8K_8Ee2Bs5I-Z5QCqw" name="No_rooms" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_1DhD8a_8Ee2Bs5I-Z5QCqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_4lHicK_8Ee2Bs5I-Z5QCqw" name="Has_Car_Parking">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_9e8YIK_8Ee2Bs5I-Z5QCqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aPjrgK_3Ee2VwP1bbmI-Sw" name="Three_portions">
+        <generalization xmi:type="uml:Generalization" xmi:id="_Woqn4K_4Ee2VwP1bbmI-Sw" general="_UZFnYK_3Ee2VwP1bbmI-Sw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_gdhNIK_4Ee2VwP1bbmI-Sw" name="Monthly_Charge">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_zWjBQK_7Ee2VwP1bbmI-Sw" name="Has_Open_Kitchen">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_zWjBQa_7Ee2VwP1bbmI-Sw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_1fo_QK_8Ee2Bs5I-Z5QCqw" name="No_rooms" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_1fo_Qa_8Ee2Bs5I-Z5QCqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_-3W8kK_8Ee2Bs5I-Z5QCqw" name="Has_Car_Parking">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_-3W8ka_8Ee2Bs5I-Z5QCqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Bt5r4K_9Ee2Bs5I-Z5QCqw" name="Has_TV_Area" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_HErjUK_9Ee2Bs5I-Z5QCqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Iqit4K_9Ee2Bs5I-Z5QCqw" name="Has_Garden" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Nw6KwK_9Ee2Bs5I-Z5QCqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_r73fwK_4Ee2VwP1bbmI-Sw" name="State Agent">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_PvoBkK_6Ee2VwP1bbmI-Sw" name="Name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_VKOCAK_6Ee2VwP1bbmI-Sw" name="Contact_no">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_YoOZ8K_6Ee2VwP1bbmI-Sw" name="Age">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tVdv8K_4Ee2VwP1bbmI-Sw" name="House Owner">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Lo7R8K_6Ee2VwP1bbmI-Sw" name="Name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_RWTEcK_6Ee2VwP1bbmI-Sw" name="Contact_no">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_WJwMYK_6Ee2VwP1bbmI-Sw" name="Age">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_vVxokq_9Ee2Bs5I-Z5QCqw" name="state agent" type="_r73fwK_4Ee2VwP1bbmI-Sw" aggregation="shared" association="_vVxBgK_9Ee2Bs5I-Z5QCqw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vVyPoK_9Ee2Bs5I-Z5QCqw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vVyPoa_9Ee2Bs5I-Z5QCqw" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uz6q8K_4Ee2VwP1bbmI-Sw" name="Rental_family">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_QBBTkK_6Ee2VwP1bbmI-Sw" name="Name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Vi1WUK_6Ee2VwP1bbmI-Sw" name="Contact_no">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Y3b6oK_6Ee2VwP1bbmI-Sw" name="Age">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_hohOYK_9Ee2Bs5I-Z5QCqw" name="No_of_Persons" aggregation="shared">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_uBevIa_9Ee2Bs5I-Z5QCqw" name="state agent" type="_r73fwK_4Ee2VwP1bbmI-Sw" aggregation="composite" association="_uBdhAK_9Ee2Bs5I-Z5QCqw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uBfWMK_9Ee2Bs5I-Z5QCqw" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_EqCNMK_6Ee2VwP1bbmI-Sw" visibility="public" memberEnd="_EqECYK_6Ee2VwP1bbmI-Sw _EqECY6_6Ee2VwP1bbmI-Sw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EqDbUK_6Ee2VwP1bbmI-Sw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EqDbUa_6Ee2VwP1bbmI-Sw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_EqECY6_6Ee2VwP1bbmI-Sw" name="house" type="_UZFnYK_3Ee2VwP1bbmI-Sw" association="_EqCNMK_6Ee2VwP1bbmI-Sw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JqYhoK_6Ee2VwP1bbmI-Sw" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_uBdhAK_9Ee2Bs5I-Z5QCqw" visibility="protected" memberEnd="_uBevIa_9Ee2Bs5I-Z5QCqw _uBfWMa_9Ee2Bs5I-Z5QCqw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uBeIEK_9Ee2Bs5I-Z5QCqw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uBevIK_9Ee2Bs5I-Z5QCqw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_uBfWMa_9Ee2Bs5I-Z5QCqw" name="rental_family" type="_uz6q8K_4Ee2VwP1bbmI-Sw" association="_uBdhAK_9Ee2Bs5I-Z5QCqw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_vVxBgK_9Ee2Bs5I-Z5QCqw" memberEnd="_vVxokq_9Ee2Bs5I-Z5QCqw _vVyPoq_9Ee2Bs5I-Z5QCqw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vVxokK_9Ee2Bs5I-Z5QCqw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vVxoka_9Ee2Bs5I-Z5QCqw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_vVyPoq_9Ee2Bs5I-Z5QCqw" name="house owner" type="_tVdv8K_4Ee2VwP1bbmI-Sw" association="_vVxBgK_9Ee2Bs5I-Z5QCqw"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PZi8gK_9Ee2Bs5I-Z5QCqw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PZpqMK_9Ee2Bs5I-Z5QCqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/Codegen/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Codegen_PROFILES/Codegen.profile.uml#_fPDsIBa-EearhdjjJ6cVzQ"/>
+    </profileApplication>
+  </uml:Model>
+  <Codegen:GeneratorHint xmi:id="_PZ0pUK_9Ee2Bs5I-Z5QCqw" base_Element="_qkKNUK_1Ee2VwP1bbmI-Sw" generatorID="Standard Java">
+    <language xmi:type="Codegen:Language" href="pathmap://Codegen_PROFILES/languages.uml#_2Zt6YCjREeayco6FJ_OtTQ"/>
+  </Codegen:GeneratorHint>
+</xmi:XMI>
