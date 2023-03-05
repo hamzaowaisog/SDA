@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;LAb5/model.di&apos; to &apos;Class Diagram.di&apos;" description="Rename resource &apos;model.di&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="model.di" name="Class Diagram.di" stamp="1677232391836" updateReferences="true"/>
+</session>
