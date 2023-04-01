@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_yNKBcM8iEe27wfqebF4pTg" name="LAB 6">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_yaQpUM8iEe27wfqebF4pTg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_yR6loM8iEe27wfqebF4pTg" name="Activity1"/>
+</uml:Model>
