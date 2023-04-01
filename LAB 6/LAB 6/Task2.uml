@@ -17,6 +17,8 @@
     <edge xmi:type="uml:ControlFlow" xmi:id="_QDZiUM8sEe27wfqebF4pTg" inPartition="_prUCkM8qEe27wfqebF4pTg" target="_Mg_ykM8sEe27wfqebF4pTg" source="_7COOkM8rEe27wfqebF4pTg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_WgN0wM8sEe27wfqebF4pTg" inPartition="_rQaYIM8qEe27wfqebF4pTg" target="_TkiGwM8sEe27wfqebF4pTg" source="_Db3aEM8sEe27wfqebF4pTg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_fzD5IM8sEe27wfqebF4pTg" inPartition="_prUCkM8qEe27wfqebF4pTg" target="_ZnUIkM8sEe27wfqebF4pTg" source="_Mg_ykM8sEe27wfqebF4pTg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1AqWENAuEe24E--DDguHEg" target="_0UdWEM8rEe27wfqebF4pTg" source="_ZnUIkM8sEe27wfqebF4pTg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2Vok8NAuEe24E--DDguHEg" target="_0UdWEM8rEe27wfqebF4pTg" source="_TkiGwM8sEe27wfqebF4pTg"/>
     <group xmi:type="uml:ActivityPartition" xmi:id="_LJrsQM8qEe27wfqebF4pTg" name="Receptionist" node="_FFeRoM8rEe27wfqebF4pTg _PNx-YM8rEe27wfqebF4pTg _YnsUEM8rEe27wfqebF4pTg" edge="_bQneIM8rEe27wfqebF4pTg"/>
     <group xmi:type="uml:ActivityPartition" xmi:id="_nmWhMM8qEe27wfqebF4pTg" name="Patient" node="_JDhbkM8rEe27wfqebF4pTg _M1wXEM8rEe27wfqebF4pTg _l5ObkM8rEe27wfqebF4pTg _vlCZkM8rEe27wfqebF4pTg _0UdWEM8rEe27wfqebF4pTg" edge="_TkPoUM8rEe27wfqebF4pTg _tZ5XsM8rEe27wfqebF4pTg _x1ojMM8rEe27wfqebF4pTg _1aNdMM8rEe27wfqebF4pTg"/>
     <group xmi:type="uml:ActivityPartition" xmi:id="_prUCkM8qEe27wfqebF4pTg" name="Doctor" node="_7COOkM8rEe27wfqebF4pTg _Mg_ykM8sEe27wfqebF4pTg _ZnUIkM8sEe27wfqebF4pTg" edge="_QDZiUM8sEe27wfqebF4pTg _fzD5IM8sEe27wfqebF4pTg"/>
@@ -28,11 +30,11 @@
     <node xmi:type="uml:OpaqueAction" xmi:id="_YnsUEM8rEe27wfqebF4pTg" name="Schedule Appointment" incoming="_bQneIM8rEe27wfqebF4pTg" outgoing="_ryCpEM8rEe27wfqebF4pTg" inPartition="_LJrsQM8qEe27wfqebF4pTg"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_l5ObkM8rEe27wfqebF4pTg" name="[Is it two hours before meetup]" incoming="_ryCpEM8rEe27wfqebF4pTg _tZ5XsM8rEe27wfqebF4pTg" outgoing="_x1ojMM8rEe27wfqebF4pTg _-uS3sM8rEe27wfqebF4pTg" inPartition="_nmWhMM8qEe27wfqebF4pTg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_vlCZkM8rEe27wfqebF4pTg" name="Cancel Appointment" incoming="_x1ojMM8rEe27wfqebF4pTg" outgoing="_1aNdMM8rEe27wfqebF4pTg" inPartition="_nmWhMM8qEe27wfqebF4pTg"/>
-    <node xmi:type="uml:ActivityFinalNode" xmi:id="_0UdWEM8rEe27wfqebF4pTg" name="" incoming="_1aNdMM8rEe27wfqebF4pTg" inPartition="_nmWhMM8qEe27wfqebF4pTg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_0UdWEM8rEe27wfqebF4pTg" name="" incoming="_1aNdMM8rEe27wfqebF4pTg _1AqWENAuEe24E--DDguHEg _2Vok8NAuEe24E--DDguHEg" inPartition="_nmWhMM8qEe27wfqebF4pTg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_7COOkM8rEe27wfqebF4pTg" name="Give consultation" incoming="_-uS3sM8rEe27wfqebF4pTg" outgoing="_LnbGQM8sEe27wfqebF4pTg _QDZiUM8sEe27wfqebF4pTg" inPartition="_prUCkM8qEe27wfqebF4pTg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_Db3aEM8sEe27wfqebF4pTg" name="keep track of results" incoming="_LnbGQM8sEe27wfqebF4pTg" outgoing="_WgN0wM8sEe27wfqebF4pTg" inPartition="_rQaYIM8qEe27wfqebF4pTg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_Mg_ykM8sEe27wfqebF4pTg" name="prescribe Medication" incoming="_QDZiUM8sEe27wfqebF4pTg" outgoing="_fzD5IM8sEe27wfqebF4pTg" inPartition="_prUCkM8qEe27wfqebF4pTg"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_TkiGwM8sEe27wfqebF4pTg" name="Print history of patient" incoming="_WgN0wM8sEe27wfqebF4pTg" inPartition="_rQaYIM8qEe27wfqebF4pTg"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_ZnUIkM8sEe27wfqebF4pTg" name="View History" incoming="_fzD5IM8sEe27wfqebF4pTg" inPartition="_prUCkM8qEe27wfqebF4pTg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_TkiGwM8sEe27wfqebF4pTg" name="Print history of patient" incoming="_WgN0wM8sEe27wfqebF4pTg" outgoing="_2Vok8NAuEe24E--DDguHEg" inPartition="_rQaYIM8qEe27wfqebF4pTg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ZnUIkM8sEe27wfqebF4pTg" name="View History" incoming="_fzD5IM8sEe27wfqebF4pTg" outgoing="_1AqWENAuEe24E--DDguHEg" inPartition="_prUCkM8qEe27wfqebF4pTg"/>
   </packagedElement>
 </uml:Model>
