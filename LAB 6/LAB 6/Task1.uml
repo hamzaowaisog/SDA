@@ -3,19 +3,17 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_7k3-wM8iEe27wfqebF4pTg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_7jp2wM8iEe27wfqebF4pTg" name="Activity1" node="_ApXzYM8jEe27wfqebF4pTg _HhY0EM8jEe27wfqebF4pTg _RLmPkM8jEe27wfqebF4pTg _VX2NkM8jEe27wfqebF4pTg _ZCSfAM8jEe27wfqebF4pTg _hXDKgM8jEe27wfqebF4pTg _lYF-EM8jEe27wfqebF4pTg _yHbXcM8jEe27wfqebF4pTg _4rceEM8jEe27wfqebF4pTg _-57ZkM8jEe27wfqebF4pTg _YAOIkM8kEe27wfqebF4pTg _b9M7gM8kEe27wfqebF4pTg _fAshsM8kEe27wfqebF4pTg _jFqzAM8kEe27wfqebF4pTg _n_0Y0M8kEe27wfqebF4pTg _xzX9kM8kEe27wfqebF4pTg _5w8REM8kEe27wfqebF4pTg _8Nnu4M8kEe27wfqebF4pTg _QoVfkM8lEe27wfqebF4pTg _p5zHUM8mEe27wfqebF4pTg _sjKWQM8mEe27wfqebF4pTg _4IPjAM8mEe27wfqebF4pTg">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_7jp2wM8iEe27wfqebF4pTg" name="Activity1" node="_ApXzYM8jEe27wfqebF4pTg _HhY0EM8jEe27wfqebF4pTg _RLmPkM8jEe27wfqebF4pTg _VX2NkM8jEe27wfqebF4pTg _ZCSfAM8jEe27wfqebF4pTg _YAOIkM8kEe27wfqebF4pTg _b9M7gM8kEe27wfqebF4pTg _fAshsM8kEe27wfqebF4pTg _jFqzAM8kEe27wfqebF4pTg _n_0Y0M8kEe27wfqebF4pTg _xzX9kM8kEe27wfqebF4pTg _5w8REM8kEe27wfqebF4pTg _8Nnu4M8kEe27wfqebF4pTg _QoVfkM8lEe27wfqebF4pTg _p5zHUM8mEe27wfqebF4pTg _sjKWQM8mEe27wfqebF4pTg _4IPjAM8mEe27wfqebF4pTg _MaUrgNAsEe24E--DDguHEg" group="_MaUrgNAsEe24E--DDguHEg">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_aFAn8NAuEe24E--DDguHEg">
+      <body>21k-3815&#xD;
+Week 07 &#xD;
+Task 1&#xD;
+</body>
+    </ownedComment>
     <edge xmi:type="uml:ControlFlow" xmi:id="_LYCVgM8jEe27wfqebF4pTg" target="_HhY0EM8jEe27wfqebF4pTg" source="_ApXzYM8jEe27wfqebF4pTg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_a9EJoM8jEe27wfqebF4pTg" target="_RLmPkM8jEe27wfqebF4pTg" source="_HhY0EM8jEe27wfqebF4pTg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_dPbN0M8jEe27wfqebF4pTg" target="_VX2NkM8jEe27wfqebF4pTg" source="_RLmPkM8jEe27wfqebF4pTg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_fFn6cM8jEe27wfqebF4pTg" target="_ZCSfAM8jEe27wfqebF4pTg" source="_VX2NkM8jEe27wfqebF4pTg"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_jMvg0M8jEe27wfqebF4pTg" target="_hXDKgM8jEe27wfqebF4pTg" source="_ZCSfAM8jEe27wfqebF4pTg"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_pe5bYM8jEe27wfqebF4pTg" target="_lYF-EM8jEe27wfqebF4pTg" source="_hXDKgM8jEe27wfqebF4pTg"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_1j9IsM8jEe27wfqebF4pTg" name="[No]" target="_yHbXcM8jEe27wfqebF4pTg" source="_lYF-EM8jEe27wfqebF4pTg"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_8M9dAM8jEe27wfqebF4pTg" name="[Yes]" target="_4rceEM8jEe27wfqebF4pTg" source="_lYF-EM8jEe27wfqebF4pTg"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_D7wUsM8kEe27wfqebF4pTg" target="_-57ZkM8jEe27wfqebF4pTg" source="_4rceEM8jEe27wfqebF4pTg"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_HSJowM8kEe27wfqebF4pTg" name="[rounds &lt; 20 or 30]" target="_hXDKgM8jEe27wfqebF4pTg" source="_-57ZkM8jEe27wfqebF4pTg"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_ML9QUM8kEe27wfqebF4pTg" name="[Rounds > 20 or 30]" target="_yHbXcM8jEe27wfqebF4pTg" source="_-57ZkM8jEe27wfqebF4pTg"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_a59V0M8kEe27wfqebF4pTg" target="_YAOIkM8kEe27wfqebF4pTg" source="_yHbXcM8jEe27wfqebF4pTg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_hKUgoM8kEe27wfqebF4pTg" target="_b9M7gM8kEe27wfqebF4pTg" source="_YAOIkM8kEe27wfqebF4pTg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_h57YoM8kEe27wfqebF4pTg" target="_fAshsM8kEe27wfqebF4pTg" source="_b9M7gM8kEe27wfqebF4pTg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_ktGD0M8kEe27wfqebF4pTg" name="[NO]" target="_jFqzAM8kEe27wfqebF4pTg" source="_fAshsM8kEe27wfqebF4pTg"/>
@@ -30,23 +28,54 @@
     <edge xmi:type="uml:ControlFlow" xmi:id="_2Ug7kM8mEe27wfqebF4pTg" target="_sjKWQM8mEe27wfqebF4pTg" source="_p5zHUM8mEe27wfqebF4pTg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_6hJ7IM8mEe27wfqebF4pTg" target="_4IPjAM8mEe27wfqebF4pTg" source="_sjKWQM8mEe27wfqebF4pTg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_70w4EM8mEe27wfqebF4pTg" target="_4IPjAM8mEe27wfqebF4pTg" source="_jFqzAM8kEe27wfqebF4pTg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6OU_sNAsEe24E--DDguHEg" target="_YAOIkM8kEe27wfqebF4pTg" source="_VwE58NAsEe24E--DDguHEg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DSVW0NAtEe24E--DDguHEg" target="_TVlNcNAsEe24E--DDguHEg" source="_ZCSfAM8jEe27wfqebF4pTg"/>
+    <structuredNode xmi:type="uml:ExpansionRegion" xmi:id="_MaUrgNAsEe24E--DDguHEg" name="ExpansionRegion36" outputElement="_VwE58NAsEe24E--DDguHEg" inputElement="_TVlNcNAsEe24E--DDguHEg">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_OR204NAsEe24E--DDguHEg">
+        <body>A patient record and scheduling system in a doctor’s office is used by the receptionists, nurses, and
+doctors. The receptionists use the system to enter new patient information when first-time patients visit
+the doctor. They also schedule all appointments. Patient may cancel the scheduled appointment before
+two hour of meeting-up. After getting a consultation from the doctor, the nurses use the system to keep
+track of the results of each visit including diagnosis and medications. For each visit, free form text fields
+are used captures information on diagnosis and treatment. Multiple medications may be prescribed
+during each visit. The nurses can also access the information to print out a history of patient visits. The
+doctors primarily use the system to view patient history. The doctors may enter some patient treatment
+information and prescriptions occasionally, but most frequently they let the nurses enter this information.
+This process repeat for all the patients.</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_QqwUANAuEe24E--DDguHEg">
+        <body>this iterative region serves until all the bugs are remove . may take more than 20 rounds&#xD;
+</body>
+      </ownedComment>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_sECrQNAsEe24E--DDguHEg" target="_f49OcNAsEe24E--DDguHEg" source="_TVlNcNAsEe24E--DDguHEg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_w8zxANAsEe24E--DDguHEg" target="_tox0cNAsEe24E--DDguHEg" source="_f49OcNAsEe24E--DDguHEg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_3KxIENAsEe24E--DDguHEg" name="[No]" target="_zDAogNAsEe24E--DDguHEg" source="_tox0cNAsEe24E--DDguHEg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_5MfIMNAsEe24E--DDguHEg" target="_VwE58NAsEe24E--DDguHEg" source="_zDAogNAsEe24E--DDguHEg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_MdkXUNAtEe24E--DDguHEg" name="[Yes]" target="_Kii1ENAtEe24E--DDguHEg" source="_tox0cNAsEe24E--DDguHEg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_ObOhYNAuEe24E--DDguHEg" target="_f49OcNAsEe24E--DDguHEg" source="_Kii1ENAtEe24E--DDguHEg"/>
+      <node xmi:type="uml:ExpansionNode" xmi:id="_TVlNcNAsEe24E--DDguHEg" name="ExpansionNode2" incoming="_DSVW0NAtEe24E--DDguHEg" outgoing="_sECrQNAsEe24E--DDguHEg" regionAsInput="_MaUrgNAsEe24E--DDguHEg">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_TVnpsNAsEe24E--DDguHEg" value="1"/>
+      </node>
+      <node xmi:type="uml:ExpansionNode" xmi:id="_VwE58NAsEe24E--DDguHEg" name="ExpansionNode3" incoming="_5MfIMNAsEe24E--DDguHEg" outgoing="_6OU_sNAsEe24E--DDguHEg" regionAsOutput="_MaUrgNAsEe24E--DDguHEg">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_VwFhANAsEe24E--DDguHEg" value="1"/>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_f49OcNAsEe24E--DDguHEg" name="Testing" incoming="_sECrQNAsEe24E--DDguHEg _ObOhYNAuEe24E--DDguHEg" outgoing="_w8zxANAsEe24E--DDguHEg"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_tox0cNAsEe24E--DDguHEg" name="[Found any flaws?]" incoming="_w8zxANAsEe24E--DDguHEg" outgoing="_3KxIENAsEe24E--DDguHEg _MdkXUNAtEe24E--DDguHEg"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_zDAogNAsEe24E--DDguHEg" name="Manufacturing phase" incoming="_3KxIENAsEe24E--DDguHEg" outgoing="_5MfIMNAsEe24E--DDguHEg"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_Kii1ENAtEe24E--DDguHEg" name="Remove Bugs" incoming="_MdkXUNAtEe24E--DDguHEg" outgoing="_ObOhYNAuEe24E--DDguHEg"/>
+    </structuredNode>
     <node xmi:type="uml:InitialNode" xmi:id="_ApXzYM8jEe27wfqebF4pTg" name="START" outgoing="_LYCVgM8jEe27wfqebF4pTg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_HhY0EM8jEe27wfqebF4pTg" name="Design Phase" incoming="_LYCVgM8jEe27wfqebF4pTg" outgoing="_a9EJoM8jEe27wfqebF4pTg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_RLmPkM8jEe27wfqebF4pTg" name="Specificies Requirement" incoming="_a9EJoM8jEe27wfqebF4pTg" outgoing="_dPbN0M8jEe27wfqebF4pTg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_VX2NkM8jEe27wfqebF4pTg" name="Development Phase" incoming="_dPbN0M8jEe27wfqebF4pTg" outgoing="_fFn6cM8jEe27wfqebF4pTg"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_ZCSfAM8jEe27wfqebF4pTg" name="Prototype Created" incoming="_fFn6cM8jEe27wfqebF4pTg" outgoing="_jMvg0M8jEe27wfqebF4pTg"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_hXDKgM8jEe27wfqebF4pTg" name="Testing" incoming="_jMvg0M8jEe27wfqebF4pTg _HSJowM8kEe27wfqebF4pTg" outgoing="_pe5bYM8jEe27wfqebF4pTg"/>
-    <node xmi:type="uml:DecisionNode" xmi:id="_lYF-EM8jEe27wfqebF4pTg" name="[Found any Flaws?]" incoming="_pe5bYM8jEe27wfqebF4pTg" outgoing="_1j9IsM8jEe27wfqebF4pTg _8M9dAM8jEe27wfqebF4pTg"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_yHbXcM8jEe27wfqebF4pTg" name="Manufacturing Phase" incoming="_1j9IsM8jEe27wfqebF4pTg _ML9QUM8kEe27wfqebF4pTg" outgoing="_a59V0M8kEe27wfqebF4pTg"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_4rceEM8jEe27wfqebF4pTg" name="Remove  bugs" incoming="_8M9dAM8jEe27wfqebF4pTg" outgoing="_D7wUsM8kEe27wfqebF4pTg"/>
-    <node xmi:type="uml:DecisionNode" xmi:id="_-57ZkM8jEe27wfqebF4pTg" name="[How many rounds?]" incoming="_D7wUsM8kEe27wfqebF4pTg" outgoing="_HSJowM8kEe27wfqebF4pTg _ML9QUM8kEe27wfqebF4pTg"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_YAOIkM8kEe27wfqebF4pTg" name="Products assembled" incoming="_a59V0M8kEe27wfqebF4pTg" outgoing="_hKUgoM8kEe27wfqebF4pTg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ZCSfAM8jEe27wfqebF4pTg" name="Prototype Created" incoming="_fFn6cM8jEe27wfqebF4pTg" outgoing="_DSVW0NAtEe24E--DDguHEg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_YAOIkM8kEe27wfqebF4pTg" name="Products assembled" incoming="_6OU_sNAsEe24E--DDguHEg" outgoing="_hKUgoM8kEe27wfqebF4pTg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_b9M7gM8kEe27wfqebF4pTg" name="Quality check" incoming="_hKUgoM8kEe27wfqebF4pTg" outgoing="_h57YoM8kEe27wfqebF4pTg"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_fAshsM8kEe27wfqebF4pTg" name="[Is quality ok?]" incoming="_h57YoM8kEe27wfqebF4pTg" outgoing="_ktGD0M8kEe27wfqebF4pTg _rwueoM8kEe27wfqebF4pTg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_jFqzAM8kEe27wfqebF4pTg" name="Product discard" incoming="_ktGD0M8kEe27wfqebF4pTg _CMQQgM8lEe27wfqebF4pTg _II6cMM8lEe27wfqebF4pTg" outgoing="_70w4EM8mEe27wfqebF4pTg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_n_0Y0M8kEe27wfqebF4pTg" name="Packaging phase" incoming="_rwueoM8kEe27wfqebF4pTg" outgoing="_0wX6MM8kEe27wfqebF4pTg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_xzX9kM8kEe27wfqebF4pTg" name="Shpping Phase" incoming="_0wX6MM8kEe27wfqebF4pTg" outgoing="_NH9JEM8lEe27wfqebF4pTg"/>
-    <node xmi:type="uml:DecisionNode" xmi:id="_5w8REM8kEe27wfqebF4pTg" name="[Qaulity check?]" incoming="_NH9JEM8lEe27wfqebF4pTg" outgoing="_CMQQgM8lEe27wfqebF4pTg _LjNY0M8lEe27wfqebF4pTg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_5w8REM8kEe27wfqebF4pTg" name="[Quality check?]" incoming="_NH9JEM8lEe27wfqebF4pTg" outgoing="_CMQQgM8lEe27wfqebF4pTg _LjNY0M8lEe27wfqebF4pTg"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_8Nnu4M8kEe27wfqebF4pTg" name="[satisfied customer specification?]" incoming="_LjNY0M8lEe27wfqebF4pTg" outgoing="_II6cMM8lEe27wfqebF4pTg _zMI1YM8mEe27wfqebF4pTg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_QoVfkM8lEe27wfqebF4pTg" name="Profuct labeled" incoming="_zMI1YM8mEe27wfqebF4pTg" outgoing="_1dcwsM8mEe27wfqebF4pTg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_p5zHUM8mEe27wfqebF4pTg" name="Product Packaged" incoming="_1dcwsM8mEe27wfqebF4pTg" outgoing="_2Ug7kM8mEe27wfqebF4pTg"/>
