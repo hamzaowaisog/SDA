@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_GmxxINYiEe2dL7gPMwXleg" name="Task5">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Gn8OwNYiEe2dL7gPMwXleg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_Gm-lcNYiEe2dL7gPMwXleg" name="Interaction1">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_A7pk4NYjEe2dL7gPMwXleg">
+      <body>21k-3815&#xD;
+Muhammad Hamza&#xD;
+Week 08&#xD;
+Task 5&#xD;
+</body>
+    </ownedComment>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5QQmgdYiEe2dL7gPMwXleg" name="" type="_Gm-lcNYiEe2dL7gPMwXleg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_NZwg0NYiEe2dL7gPMwXleg" name="Tv viewer" coveredBy="_Vc7GANYiEe2dL7gPMwXleg _bgd80dYiEe2dL7gPMwXleg _ikmt8NYiEe2dL7gPMwXleg _688KwNYiEe2dL7gPMwXleg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_OT2xkNYiEe2dL7gPMwXleg" name="Remote " coveredBy="_Vc7tENYiEe2dL7gPMwXleg _XzxBkNYiEe2dL7gPMwXleg _ikmt8dYiEe2dL7gPMwXleg _zo4HQNYiEe2dL7gPMwXleg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_PN9CUNYiEe2dL7gPMwXleg" name="TV" coveredBy="_XzxBkdYiEe2dL7gPMwXleg _bgd80NYiEe2dL7gPMwXleg _zo4HQdYiEe2dL7gPMwXleg _687jsNYiEe2dL7gPMwXleg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_5QQmgNYiEe2dL7gPMwXleg" name="" represents="_5QQmgdYiEe2dL7gPMwXleg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Vc7GANYiEe2dL7gPMwXleg" name="Message4SendEvent" covered="_NZwg0NYiEe2dL7gPMwXleg" message="_Vc5Q0NYiEe2dL7gPMwXleg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Vc7tENYiEe2dL7gPMwXleg" name="Message4ReceiveEvent" covered="_OT2xkNYiEe2dL7gPMwXleg" message="_Vc5Q0NYiEe2dL7gPMwXleg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XzxBkNYiEe2dL7gPMwXleg" name="Message7SendEvent" covered="_OT2xkNYiEe2dL7gPMwXleg" message="_XzwagNYiEe2dL7gPMwXleg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XzxBkdYiEe2dL7gPMwXleg" name="Message7ReceiveEvent" covered="_PN9CUNYiEe2dL7gPMwXleg" message="_XzwagNYiEe2dL7gPMwXleg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bgd80NYiEe2dL7gPMwXleg" name="Message10SendEvent" covered="_PN9CUNYiEe2dL7gPMwXleg" message="_bgdVwNYiEe2dL7gPMwXleg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bgd80dYiEe2dL7gPMwXleg" name="Message10ReceiveEvent" covered="_NZwg0NYiEe2dL7gPMwXleg" message="_bgdVwNYiEe2dL7gPMwXleg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ikmt8NYiEe2dL7gPMwXleg" name="Message13SendEvent" covered="_NZwg0NYiEe2dL7gPMwXleg" message="_ikmG4NYiEe2dL7gPMwXleg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ikmt8dYiEe2dL7gPMwXleg" name="Message13ReceiveEvent" covered="_OT2xkNYiEe2dL7gPMwXleg" message="_ikmG4NYiEe2dL7gPMwXleg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zo4HQNYiEe2dL7gPMwXleg" name="Message16SendEvent" covered="_OT2xkNYiEe2dL7gPMwXleg" message="_zo3gMNYiEe2dL7gPMwXleg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zo4HQdYiEe2dL7gPMwXleg" name="Message16ReceiveEvent" covered="_PN9CUNYiEe2dL7gPMwXleg" message="_zo3gMNYiEe2dL7gPMwXleg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_687jsNYiEe2dL7gPMwXleg" name="Message21SendEvent" covered="_PN9CUNYiEe2dL7gPMwXleg" message="_6868oNYiEe2dL7gPMwXleg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_688KwNYiEe2dL7gPMwXleg" name="Message21ReceiveEvent" covered="_NZwg0NYiEe2dL7gPMwXleg" message="_6868oNYiEe2dL7gPMwXleg"/>
+    <message xmi:type="uml:Message" xmi:id="_Vc5Q0NYiEe2dL7gPMwXleg" name="1:Press_number" messageSort="asynchCall" receiveEvent="_Vc7tENYiEe2dL7gPMwXleg" sendEvent="_Vc7GANYiEe2dL7gPMwXleg"/>
+    <message xmi:type="uml:Message" xmi:id="_XzwagNYiEe2dL7gPMwXleg" name="2:Send_signal_to_change_channel" messageSort="asynchCall" receiveEvent="_XzxBkdYiEe2dL7gPMwXleg" sendEvent="_XzxBkNYiEe2dL7gPMwXleg"/>
+    <message xmi:type="uml:Message" xmi:id="_bgdVwNYiEe2dL7gPMwXleg" name="3:Display_desired_channel" messageSort="asynchCall" receiveEvent="_bgd80dYiEe2dL7gPMwXleg" sendEvent="_bgd80NYiEe2dL7gPMwXleg"/>
+    <message xmi:type="uml:Message" xmi:id="_ikmG4NYiEe2dL7gPMwXleg" name="4:*[Until desired channel is found ]::[Press up and down button] " messageSort="asynchCall" receiveEvent="_ikmt8dYiEe2dL7gPMwXleg" sendEvent="_ikmt8NYiEe2dL7gPMwXleg"/>
+    <message xmi:type="uml:Message" xmi:id="_zo3gMNYiEe2dL7gPMwXleg" name="6.*[until desired channel is found ] :: [Send signal to change channel]" messageSort="asynchCall" receiveEvent="_zo4HQdYiEe2dL7gPMwXleg" sendEvent="_zo4HQNYiEe2dL7gPMwXleg"/>
+    <message xmi:type="uml:Message" xmi:id="_6868oNYiEe2dL7gPMwXleg" name="7.*[Until desired channel is found] :: Display desired channel" messageSort="asynchCall" receiveEvent="_688KwNYiEe2dL7gPMwXleg" sendEvent="_687jsNYiEe2dL7gPMwXleg"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_kI5yQNYiEe2dL7gPMwXleg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kI_44NYiEe2dL7gPMwXleg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
