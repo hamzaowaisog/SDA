@@ -109,8 +109,16 @@ Week 11</body>
   </packagedElement>
   <packagedElement xmi:type="uml:StateMachine" xmi:id="_utbf8NsPEe2MDMlxV0uZrA" name="StateMachine5">
     <region xmi:type="uml:Region" xmi:id="_wKrhENsPEe2MDMlxV0uZrA" name="Region1">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_uu23wNsZEe2MDMlxV0uZrA">
+        <body>21k-3815&#xD;
+Muhammad Hamza&#xD;
+Week 11&#xD;
+Task 04</body>
+      </ownedComment>
       <transition xmi:type="uml:Transition" xmi:id="_wb4pANsTEe2MDMlxV0uZrA" name="Switchoff()" source="_RKr28NsTEe2MDMlxV0uZrA" target="_tWkd4NsTEe2MDMlxV0uZrA"/>
       <transition xmi:type="uml:Transition" xmi:id="_WivrUNsUEe2MDMlxV0uZrA" name="SwitchOn()" source="_tWkd4NsTEe2MDMlxV0uZrA" target="_B4u6YNsUEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_bRoDANsZEe2MDMlxV0uZrA" name="[Motion Detected]" source="_B4u6YNsUEe2MDMlxV0uZrA" target="_XTbvINsZEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_n0RrQNsZEe2MDMlxV0uZrA" name="[No motion detected for 5 Seconds]" source="_XTbvINsZEe2MDMlxV0uZrA" target="_B4u6YNsUEe2MDMlxV0uZrA"/>
       <subvertex xmi:type="uml:Pseudostate" xmi:id="_RKr28NsTEe2MDMlxV0uZrA" name=""/>
       <subvertex xmi:type="uml:State" xmi:id="_tWkd4NsTEe2MDMlxV0uZrA" name="Switch OFF">
         <region xmi:type="uml:Region" xmi:id="_0aho0NsTEe2MDMlxV0uZrA" name="Region1">
@@ -122,6 +130,14 @@ Week 11</body>
         <region xmi:type="uml:Region" xmi:id="_QUDUcNsUEe2MDMlxV0uZrA" name="Region1">
           <subvertex xmi:type="uml:State" xmi:id="_QUFwsNsUEe2MDMlxV0uZrA" name="System Armed"/>
           <subvertex xmi:type="uml:State" xmi:id="_UqODcNsUEe2MDMlxV0uZrA" name="Light Off"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_XTbvINsZEe2MDMlxV0uZrA" name="Switch On">
+        <region xmi:type="uml:Region" xmi:id="_euGw8NsZEe2MDMlxV0uZrA" name="Region1">
+          <subvertex xmi:type="uml:State" xmi:id="_euImINsZEe2MDMlxV0uZrA" name="System Armed"/>
+          <subvertex xmi:type="uml:State" xmi:id="_h7yN4NsZEe2MDMlxV0uZrA" name="Light Off"/>
+          <subvertex xmi:type="uml:State" xmi:id="_i7O4sNsZEe2MDMlxV0uZrA" name="CopyOf_Light Off_2"/>
+          <subvertex xmi:type="uml:State" xmi:id="_kz0yANsZEe2MDMlxV0uZrA" name="Light On"/>
         </region>
       </subvertex>
     </region>
