@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_My9RcNsCEe2MDMlxV0uZrA" name="LAB 9">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Ny9V4NsCEe2MDMlxV0uZrA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_tcPbUNsDEe2MDMlxV0uZrA" name="StateMachine2">
+    <region xmi:type="uml:Region" xmi:id="_vtWiUNsDEe2MDMlxV0uZrA" name="Region1">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_lg2f0NsIEe2MDMlxV0uZrA">
+        <body>21k-3815&#xD;
+Muhammad Hamza &#xD;
+Week 11&#xD;
+Task 02</body>
+      </ownedComment>
+      <transition xmi:type="uml:Transition" xmi:id="_xElJENsFEe2MDMlxV0uZrA" name="[Run or Exec]" source="_pTxfMNsFEe2MDMlxV0uZrA" target="_rRTi4NsFEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_9S45ANsFEe2MDMlxV0uZrA" name="Some task assigned" source="_rRTi4NsFEe2MDMlxV0uZrA" target="_7NkyUNsFEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_FI7BINsGEe2MDMlxV0uZrA" name="Processing complete" source="_7NkyUNsFEe2MDMlxV0uZrA" target="_DWJb8NsGEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_x6RlgNsGEe2MDMlxV0uZrA" name="Processing of tasked stop" source="_7NkyUNsFEe2MDMlxV0uZrA" target="_vCOaUNsGEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_SOrhANsHEe2MDMlxV0uZrA" source="_vCOaUNsGEe2MDMlxV0uZrA" target="_rRTi4NsFEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_abwQINsHEe2MDMlxV0uZrA" name="Incoming request to cancel task" source="_7NkyUNsFEe2MDMlxV0uZrA" target="_UQCUwNsHEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_ssHCENsHEe2MDMlxV0uZrA" source="_nJKW4NsHEe2MDMlxV0uZrA" target="_q4VXUNsHEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_tpNjgNsHEe2MDMlxV0uZrA" source="_DWJb8NsGEe2MDMlxV0uZrA" target="_nJKW4NsHEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_vDV_MNsHEe2MDMlxV0uZrA" source="_UQCUwNsHEe2MDMlxV0uZrA" target="_nJKW4NsHEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_1ZMG8NsHEe2MDMlxV0uZrA" name="Processing of another task" source="_UQCUwNsHEe2MDMlxV0uZrA" target="_7NkyUNsFEe2MDMlxV0uZrA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_pTxfMNsFEe2MDMlxV0uZrA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_rRTi4NsFEe2MDMlxV0uZrA" name="IDLE">
+        <doActivity xmi:type="uml:Activity" xmi:id="_Z5IgsNsGEe2MDMlxV0uZrA" name="NotifystateChange()"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_7NkyUNsFEe2MDMlxV0uZrA" name="InProgress">
+        <entry xmi:type="uml:Activity" xmi:id="_fN-ecNsGEe2MDMlxV0uZrA" name="Performed task"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_DWJb8NsGEe2MDMlxV0uZrA" name="Completed">
+        <doActivity xmi:type="uml:Activity" xmi:id="_sfmskNsGEe2MDMlxV0uZrA" name="Release all resources"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_vCOaUNsGEe2MDMlxV0uZrA" name="Suspended">
+        <doActivity xmi:type="uml:Activity" xmi:id="_kZDKQNsIEe2MDMlxV0uZrA" name="stopped current task and released resources"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_UQCUwNsHEe2MDMlxV0uZrA" name="Canceled">
+        <doActivity xmi:type="uml:Activity" xmi:id="_k5W3cNsHEe2MDMlxV0uZrA" name="Stops all processing and release resources"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_nJKW4NsHEe2MDMlxV0uZrA" name="Exit">
+        <doActivity xmi:type="uml:Activity" xmi:id="_8ZmOoNsHEe2MDMlxV0uZrA" name="Enter terminal state"/>
+      </subvertex>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_q4VXUNsHEe2MDMlxV0uZrA" name=""/>
+    </region>
+  </packagedElement>
+</uml:Model>
