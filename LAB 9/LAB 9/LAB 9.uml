@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_My9RcNsCEe2MDMlxV0uZrA" name="LAB 9">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_My9RcNsCEe2MDMlxV0uZrA" name="LAB 9">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_Ny9V4NsCEe2MDMlxV0uZrA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
@@ -43,4 +43,93 @@ Task 02</body>
       <subvertex xmi:type="uml:FinalState" xmi:id="_q4VXUNsHEe2MDMlxV0uZrA" name=""/>
     </region>
   </packagedElement>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_QfSfoNsKEe2MDMlxV0uZrA" name="StateMachine3">
+    <region xmi:type="uml:Region" xmi:id="_RzlZENsKEe2MDMlxV0uZrA" name="Region1">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_dqsXsNsPEe2MDMlxV0uZrA">
+        <body>21k-3815&#xD;
+Muhammad Hamza &#xD;
+Task 03&#xD;
+Week 11</body>
+      </ownedComment>
+      <transition xmi:type="uml:Transition" xmi:id="_Bcu0gNsMEe2MDMlxV0uZrA" source="_-NM9cNsLEe2MDMlxV0uZrA" target="__Ml94NsLEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_LNlDgNsMEe2MDMlxV0uZrA" source="__Ml94NsLEe2MDMlxV0uZrA" target="_JFYA4NsMEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_lWVVENsMEe2MDMlxV0uZrA" source="_JFYA4NsMEe2MDMlxV0uZrA" target="_Wf-k0NsMEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_tWlwMNsMEe2MDMlxV0uZrA" source="_Wf-k0NsMEe2MDMlxV0uZrA" target="_oE4mANsMEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_5Tg1MNsMEe2MDMlxV0uZrA" source="_oE4mANsMEe2MDMlxV0uZrA" target="_1qrtUNsMEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_pIzrsNsNEe2MDMlxV0uZrA" source="_1qrtUNsMEe2MDMlxV0uZrA" target="_BAQecNsNEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_JV3pENsOEe2MDMlxV0uZrA" source="_BAQecNsNEe2MDMlxV0uZrA" target="_HR7bYNsOEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_dZmdINsOEe2MDMlxV0uZrA" source="_BAQecNsNEe2MDMlxV0uZrA" target="_VyWX4NsOEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_i-lIoNsOEe2MDMlxV0uZrA" name="Selects another Product" source="_Wf-k0NsMEe2MDMlxV0uZrA" target="_JFYA4NsMEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_sOVcwNsOEe2MDMlxV0uZrA" source="_BAQecNsNEe2MDMlxV0uZrA" target="_oQXyYNsOEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_2a8asNsOEe2MDMlxV0uZrA" source="_VyWX4NsOEe2MDMlxV0uZrA" target="_1O2bANsOEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_3ymKINsOEe2MDMlxV0uZrA" source="_xZAx4NsOEe2MDMlxV0uZrA" target="_1O2bANsOEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_4aTDUNsOEe2MDMlxV0uZrA" source="_oQXyYNsOEe2MDMlxV0uZrA" target="_1O2bANsOEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_YKAWUNsPEe2MDMlxV0uZrA" source="_BAQecNsNEe2MDMlxV0uZrA" target="_xZAx4NsOEe2MDMlxV0uZrA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_-NM9cNsLEe2MDMlxV0uZrA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="__Ml94NsLEe2MDMlxV0uZrA" name="Logged in">
+        <entry xmi:type="uml:Activity" xmi:id="_D8O80NsMEe2MDMlxV0uZrA" name="Enter ID Pass"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_JFYA4NsMEe2MDMlxV0uZrA" name="Product Details">
+        <doActivity xmi:type="uml:Activity" xmi:id="_QuDpgNsMEe2MDMlxV0uZrA" name="gives more information about product"/>
+        <entry xmi:type="uml:Activity" xmi:id="_OF7JoNsMEe2MDMlxV0uZrA" name="Select Product"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_Wf-k0NsMEe2MDMlxV0uZrA" name="Item into Cart">
+        <entry xmi:type="uml:Activity" xmi:id="_fvNUgNsMEe2MDMlxV0uZrA" name="Add item into cart"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_oE4mANsMEe2MDMlxV0uZrA" name="CheckOut">
+        <doActivity xmi:type="uml:Activity" xmi:id="_wqslQNsMEe2MDMlxV0uZrA" name="Enter billing and Shipping Information"/>
+        <entry xmi:type="uml:Activity" xmi:id="_yYQTQNsMEe2MDMlxV0uZrA" name="Clicked on Checkout"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_1qrtUNsMEe2MDMlxV0uZrA" name="Made Payment">
+        <doActivity xmi:type="uml:Activity" xmi:id="_8cjCsNsMEe2MDMlxV0uZrA" name="enter payment information"/>
+        <entry xmi:type="uml:Activity" xmi:id="_-Ox1UNsMEe2MDMlxV0uZrA" name="Request made for Payment"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_BAQecNsNEe2MDMlxV0uZrA" name="Confirm Order">
+        <doActivity xmi:type="uml:Activity" xmi:id="_khlo8NsNEe2MDMlxV0uZrA" name="Calculates total cost"/>
+        <entry xmi:type="uml:Activity" xmi:id="_nTfI0NsNEe2MDMlxV0uZrA" name="Click on confirm order"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_HR7bYNsOEe2MDMlxV0uZrA" name="Inventory Update">
+        <doActivity xmi:type="uml:Activity" xmi:id="_Mxur8NsOEe2MDMlxV0uZrA" name="Sent confirmation Email"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_VyWX4NsOEe2MDMlxV0uZrA" name="Track Order">
+        <doActivity xmi:type="uml:Activity" xmi:id="_a3jXINsOEe2MDMlxV0uZrA" name="Track their order"/>
+        <entry xmi:type="uml:Activity" xmi:id="_fN66cNsOEe2MDMlxV0uZrA" name="Click on track order"/>
+        <exit xmi:type="uml:Activity" xmi:id="_cfF8sNsOEe2MDMlxV0uZrA" name="Order Delivered"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_oQXyYNsOEe2MDMlxV0uZrA" name="Customer Support">
+        <doActivity xmi:type="uml:Activity" xmi:id="_rWq08NsOEe2MDMlxV0uZrA" name="Gives Assistance"/>
+        <entry xmi:type="uml:Activity" xmi:id="_uW0MMNsOEe2MDMlxV0uZrA" name="Ask for customer support"/>
+        <exit xmi:type="uml:Activity" xmi:id="_SKwwsNsPEe2MDMlxV0uZrA" name="Assistance Provided"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_xZAx4NsOEe2MDMlxV0uZrA" name="Logged Out">
+        <entry xmi:type="uml:Activity" xmi:id="_cEen0NsPEe2MDMlxV0uZrA" name="Customer Logged out"/>
+      </subvertex>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_1O2bANsOEe2MDMlxV0uZrA" name=""/>
+    </region>
+  </packagedElement>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_utbf8NsPEe2MDMlxV0uZrA" name="StateMachine5">
+    <region xmi:type="uml:Region" xmi:id="_wKrhENsPEe2MDMlxV0uZrA" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_wb4pANsTEe2MDMlxV0uZrA" name="Switchoff()" source="_RKr28NsTEe2MDMlxV0uZrA" target="_tWkd4NsTEe2MDMlxV0uZrA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_WivrUNsUEe2MDMlxV0uZrA" name="SwitchOn()" source="_tWkd4NsTEe2MDMlxV0uZrA" target="_B4u6YNsUEe2MDMlxV0uZrA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_RKr28NsTEe2MDMlxV0uZrA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_tWkd4NsTEe2MDMlxV0uZrA" name="Switch OFF">
+        <region xmi:type="uml:Region" xmi:id="_0aho0NsTEe2MDMlxV0uZrA" name="Region1">
+          <subvertex xmi:type="uml:State" xmi:id="_0akFENsTEe2MDMlxV0uZrA" name="Light off"/>
+          <subvertex xmi:type="uml:State" xmi:id="_5Xq4QNsTEe2MDMlxV0uZrA" name="System Unarmed"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_B4u6YNsUEe2MDMlxV0uZrA" name="Switch On">
+        <region xmi:type="uml:Region" xmi:id="_QUDUcNsUEe2MDMlxV0uZrA" name="Region1">
+          <subvertex xmi:type="uml:State" xmi:id="_QUFwsNsUEe2MDMlxV0uZrA" name="System Armed"/>
+          <subvertex xmi:type="uml:State" xmi:id="_UqODcNsUEe2MDMlxV0uZrA" name="Light Off"/>
+        </region>
+      </subvertex>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3Bo5MNsMEe2MDMlxV0uZrA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3BtKoNsMEe2MDMlxV0uZrA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
 </uml:Model>
