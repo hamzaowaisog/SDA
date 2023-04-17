@@ -142,6 +142,62 @@ Task 04</body>
       </subvertex>
     </region>
   </packagedElement>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_qttmINyQEe280MRhJYYvqg" name="StateMachine6">
+    <region xmi:type="uml:Region" xmi:id="_ra2Y8NyQEe280MRhJYYvqg" name="Region1">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_fDArANy7Ee280MRhJYYvqg">
+        <body>21k-3815 &#xD;
+Muhammad Hamza&#xD;
+Week 11 &#xD;
+Task 06</body>
+      </ownedComment>
+      <transition xmi:type="uml:Transition" xmi:id="_DN86kNy5Ee280MRhJYYvqg" name="after 9 months" source="_mY7dkNyYEe280MRhJYYvqg" target="_zppfMNy4Ee280MRhJYYvqg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_NDcZANy5Ee280MRhJYYvqg" name="at the age of 2-3" source="_zppfMNy4Ee280MRhJYYvqg" target="_Ln19sNy5Ee280MRhJYYvqg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_UJHbMNy5Ee280MRhJYYvqg" name="at the age of 5" source="_Ln19sNy5Ee280MRhJYYvqg" target="_TeABoNy5Ee280MRhJYYvqg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_iypQYNy5Ee280MRhJYYvqg" name="[completed primary schooling]" source="_TeABoNy5Ee280MRhJYYvqg" target="_fjTmkNy5Ee280MRhJYYvqg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_0WHuMNy5Ee280MRhJYYvqg" source="_xO5ekNy5Ee280MRhJYYvqg" target="_y9nqMNy5Ee280MRhJYYvqg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_HFn6QNy6Ee280MRhJYYvqg" name="[Old age or illness]" source="_wGpdENy5Ee280MRhJYYvqg" target="_xO5ekNy5Ee280MRhJYYvqg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_R_SLcNy6Ee280MRhJYYvqg" name="[Completed High school]" source="_fjTmkNy5Ee280MRhJYYvqg" target="_rNdgkNy5Ee280MRhJYYvqg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_TOXNsNy6Ee280MRhJYYvqg" name="[Completed college]" source="_rNdgkNy5Ee280MRhJYYvqg" target="_uoNJINy5Ee280MRhJYYvqg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_T31ogNy6Ee280MRhJYYvqg" source="_uoNJINy5Ee280MRhJYYvqg" target="_wGpdENy5Ee280MRhJYYvqg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_c2MqoNy6Ee280MRhJYYvqg" source="_WslBANy6Ee280MRhJYYvqg" target="_xO5ekNy5Ee280MRhJYYvqg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_5Gsr0Ny6Ee280MRhJYYvqg" name="No job available" source="_1YYnANy6Ee280MRhJYYvqg" target="_WslBANy6Ee280MRhJYYvqg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_5_WLENy6Ee280MRhJYYvqg" name="[drop out]" source="_uoNJINy5Ee280MRhJYYvqg" target="_1YYnANy6Ee280MRhJYYvqg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_DrkYwNy7Ee280MRhJYYvqg" name="[drop out or restigated]" source="_rNdgkNy5Ee280MRhJYYvqg" target="_1YYnANy6Ee280MRhJYYvqg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_HGJCMNy7Ee280MRhJYYvqg" name="[drop out or restigated]" source="_fjTmkNy5Ee280MRhJYYvqg" target="_1YYnANy6Ee280MRhJYYvqg"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_mY7dkNyYEe280MRhJYYvqg" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_zppfMNy4Ee280MRhJYYvqg" name="Birth">
+        <doActivity xmi:type="uml:Activity" xmi:id="_KwllkNy5Ee280MRhJYYvqg" name="Crying"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_Ln19sNy5Ee280MRhJYYvqg" name="KID">
+        <doActivity xmi:type="uml:Activity" xmi:id="_SikUINy5Ee280MRhJYYvqg" name="learns cycling"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_TeABoNy5Ee280MRhJYYvqg" name="School-going kid">
+        <doActivity xmi:type="uml:Activity" xmi:id="_bgNkkNy5Ee280MRhJYYvqg" name="Don't want to attend school"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_fjTmkNy5Ee280MRhJYYvqg" name="Higher school">
+        <doActivity xmi:type="uml:Activity" xmi:id="_aTPwQNy7Ee280MRhJYYvqg" name="Foundation of Career"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_rNdgkNy5Ee280MRhJYYvqg" name="College">
+        <doActivity xmi:type="uml:Activity" xmi:id="_obvU8Ny7Ee280MRhJYYvqg" name="Polishing my skills"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_uoNJINy5Ee280MRhJYYvqg" name="University">
+        <doActivity xmi:type="uml:Activity" xmi:id="_rbV5oNy7Ee280MRhJYYvqg" name="Implementing skill"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_wGpdENy5Ee280MRhJYYvqg" name="Job">
+        <doActivity xmi:type="uml:Activity" xmi:id="_N0gNENy6Ee280MRhJYYvqg" name="Earn money money"/>
+        <exit xmi:type="uml:Activity" xmi:id="_QD1LYNy6Ee280MRhJYYvqg" name="got jobless"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_xO5ekNy5Ee280MRhJYYvqg" name="Death">
+        <doActivity xmi:type="uml:Activity" xmi:id="_7D9fMNy5Ee280MRhJYYvqg" name="thinking about my past"/>
+        <exit xmi:type="uml:Activity" xmi:id="_9vvwANy5Ee280MRhJYYvqg" name="Death angel seen"/>
+      </subvertex>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_y9nqMNy5Ee280MRhJYYvqg" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_WslBANy6Ee280MRhJYYvqg" name="Jobless">
+        <doActivity xmi:type="uml:Activity" xmi:id="_Z9RVsNy6Ee280MRhJYYvqg" name="Awaragardi"/>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_1YYnANy6Ee280MRhJYYvqg" kind="choice"/>
+    </region>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3Bo5MNsMEe2MDMlxV0uZrA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3BtKoNsMEe2MDMlxV0uZrA" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
